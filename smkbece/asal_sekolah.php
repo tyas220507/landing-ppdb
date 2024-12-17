@@ -1,12 +1,12 @@
 <?php
-include ('./layouts/header.php');
+include './layouts/header.php';
 ?>
 
 <body class="index-page">
 
-<?php
-include('./layouts/NAV.php');
-?>
+  <?php
+  include './ayu/nav.php';
+  ?>
 
   <main class="main">
 
@@ -45,7 +45,7 @@ include('./layouts/NAV.php');
 
     </section><!-- /Hero Section -->
 
-  
+
     <!-- Features Section -->
     <section id="features" class="features section">
 
@@ -55,14 +55,14 @@ include('./layouts/NAV.php');
 
           <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="100">
             <div class="features-item">
-            <i class="bi bi-buildings" style="color: #ffbb2c;"></i>
+              <i class="bi bi-buildings" style="color: #ffbb2c;"></i>
               <h3><a href="" class="stretched-link">Info PPDB</a></h3>
             </div>
           </div><!-- End Feature Item -->
 
           <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="200">
             <div class="features-item">
-            <i class="bi bi-buildings" style="color: #5578ff;"></i>
+              <i class="bi bi-buildings" style="color: #5578ff;"></i>
               <h3><a href="" class="stretched-link">Daftar</a></h3>
             </div>
           </div><!-- End Feature Item -->
@@ -82,14 +82,14 @@ include('./layouts/NAV.php');
           </div><!-- End Feature Item -->
           <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="100">
             <div class="features-item">
-            <i class="bi bi-buildings" style="color: #ffbb2c;"></i>
+              <i class="bi bi-buildings" style="color: #ffbb2c;"></i>
               <h3><a href="" class="stretched-link">Info PPDB</a></h3>
             </div>
           </div><!-- End Feature Item -->
 
           <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="200">
             <div class="features-item">
-            <i class="bi bi-buildings" style="color: #5578ff;"></i>
+              <i class="bi bi-buildings" style="color: #5578ff;"></i>
               <h3><a href="" class="stretched-link">Daftar</a></h3>
             </div>
           </div><!-- End Feature Item -->
@@ -109,14 +109,14 @@ include('./layouts/NAV.php');
           </div><!-- End Feature Item -->
           <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="100">
             <div class="features-item">
-            <i class="bi bi-buildings" style="color: #ffbb2c;"></i>
+              <i class="bi bi-buildings" style="color: #ffbb2c;"></i>
               <h3><a href="" class="stretched-link">Info PPDB</a></h3>
             </div>
           </div><!-- End Feature Item -->
 
           <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="200">
             <div class="features-item">
-            <i class="bi bi-buildings" style="color: #5578ff;"></i>
+              <i class="bi bi-buildings" style="color: #5578ff;"></i>
               <h3><a href="" class="stretched-link">Daftar</a></h3>
             </div>
           </div><!-- End Feature Item -->
@@ -136,14 +136,14 @@ include('./layouts/NAV.php');
           </div><!-- End Feature Item -->
           <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="100">
             <div class="features-item">
-            <i class="bi bi-buildings" style="color: #ffbb2c;"></i>
+              <i class="bi bi-buildings" style="color: #ffbb2c;"></i>
               <h3><a href="" class="stretched-link">Info PPDB</a></h3>
             </div>
           </div><!-- End Feature Item -->
 
           <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="200">
             <div class="features-item">
-            <i class="bi bi-buildings" style="color: #5578ff;"></i>
+              <i class="bi bi-buildings" style="color: #5578ff;"></i>
               <h3><a href="" class="stretched-link">Daftar</a></h3>
             </div>
           </div><!-- End Feature Item -->
@@ -163,14 +163,14 @@ include('./layouts/NAV.php');
           </div><!-- End Feature Item -->
           <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="100">
             <div class="features-item">
-            <i class="bi bi-buildings" style="color: #ffbb2c;"></i>
+              <i class="bi bi-buildings" style="color: #ffbb2c;"></i>
               <h3><a href="" class="stretched-link">Info PPDB</a></h3>
             </div>
           </div><!-- End Feature Item -->
 
           <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="200">
             <div class="features-item">
-            <i class="bi bi-buildings" style="color: #5578ff;"></i>
+              <i class="bi bi-buildings" style="color: #5578ff;"></i>
               <h3><a href="" class="stretched-link">Daftar</a></h3>
             </div>
           </div><!-- End Feature Item -->
@@ -190,14 +190,14 @@ include('./layouts/NAV.php');
           </div><!-- End Feature Item -->
           <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="100">
             <div class="features-item">
-            <i class="bi bi-buildings" style="color: #ffbb2c;"></i>
+              <i class="bi bi-buildings" style="color: #ffbb2c;"></i>
               <h3><a href="" class="stretched-link">Info PPDB</a></h3>
             </div>
           </div><!-- End Feature Item -->
 
           <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="200">
             <div class="features-item">
-            <i class="bi bi-buildings" style="color: #5578ff;"></i>
+              <i class="bi bi-buildings" style="color: #5578ff;"></i>
               <h3><a href="" class="stretched-link">Daftar</a></h3>
             </div>
           </div><!-- End Feature Item -->
@@ -217,14 +217,14 @@ include('./layouts/NAV.php');
           </div><!-- End Feature Item -->
           <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="100">
             <div class="features-item">
-            <i class="bi bi-buildings" style="color: #ffbb2c;"></i>
+              <i class="bi bi-buildings" style="color: #ffbb2c;"></i>
               <h3><a href="" class="stretched-link">Info PPDB</a></h3>
             </div>
           </div><!-- End Feature Item -->
 
           <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="200">
             <div class="features-item">
-            <i class="bi bi-buildings" style="color: #5578ff;"></i>
+              <i class="bi bi-buildings" style="color: #5578ff;"></i>
               <h3><a href="" class="stretched-link">Daftar</a></h3>
             </div>
           </div><!-- End Feature Item -->
@@ -244,14 +244,14 @@ include('./layouts/NAV.php');
           </div><!-- End Feature Item -->
           <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="100">
             <div class="features-item">
-            <i class="bi bi-buildings" style="color: #ffbb2c;"></i>
+              <i class="bi bi-buildings" style="color: #ffbb2c;"></i>
               <h3><a href="" class="stretched-link">Info PPDB</a></h3>
             </div>
           </div><!-- End Feature Item -->
 
           <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="200">
             <div class="features-item">
-            <i class="bi bi-buildings" style="color: #5578ff;"></i>
+              <i class="bi bi-buildings" style="color: #5578ff;"></i>
               <h3><a href="" class="stretched-link">Daftar</a></h3>
             </div>
           </div><!-- End Feature Item -->
@@ -271,14 +271,14 @@ include('./layouts/NAV.php');
           </div><!-- End Feature Item -->
           <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="100">
             <div class="features-item">
-            <i class="bi bi-buildings" style="color: #ffbb2c;"></i>
+              <i class="bi bi-buildings" style="color: #ffbb2c;"></i>
               <h3><a href="" class="stretched-link">Info PPDB</a></h3>
             </div>
           </div><!-- End Feature Item -->
 
           <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="200">
             <div class="features-item">
-            <i class="bi bi-buildings" style="color: #5578ff;"></i>
+              <i class="bi bi-buildings" style="color: #5578ff;"></i>
               <h3><a href="" class="stretched-link">Daftar</a></h3>
             </div>
           </div><!-- End Feature Item -->
@@ -298,14 +298,14 @@ include('./layouts/NAV.php');
           </div><!-- End Feature Item -->
           <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="100">
             <div class="features-item">
-            <i class="bi bi-buildings" style="color: #ffbb2c;"></i>
+              <i class="bi bi-buildings" style="color: #ffbb2c;"></i>
               <h3><a href="" class="stretched-link">Info PPDB</a></h3>
             </div>
           </div><!-- End Feature Item -->
 
           <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="200">
             <div class="features-item">
-            <i class="bi bi-buildings" style="color: #5578ff;"></i>
+              <i class="bi bi-buildings" style="color: #5578ff;"></i>
               <h3><a href="" class="stretched-link">Daftar</a></h3>
             </div>
           </div><!-- End Feature Item -->
@@ -325,14 +325,14 @@ include('./layouts/NAV.php');
           </div><!-- End Feature Item -->
           <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="100">
             <div class="features-item">
-            <i class="bi bi-buildings" style="color: #ffbb2c;"></i>
+              <i class="bi bi-buildings" style="color: #ffbb2c;"></i>
               <h3><a href="" class="stretched-link">Info PPDB</a></h3>
             </div>
           </div><!-- End Feature Item -->
 
           <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="200">
             <div class="features-item">
-            <i class="bi bi-buildings" style="color: #5578ff;"></i>
+              <i class="bi bi-buildings" style="color: #5578ff;"></i>
               <h3><a href="" class="stretched-link">Daftar</a></h3>
             </div>
           </div><!-- End Feature Item -->
@@ -352,14 +352,14 @@ include('./layouts/NAV.php');
           </div><!-- End Feature Item -->
           <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="100">
             <div class="features-item">
-            <i class="bi bi-buildings" style="color: #ffbb2c;"></i>
+              <i class="bi bi-buildings" style="color: #ffbb2c;"></i>
               <h3><a href="" class="stretched-link">Info PPDB</a></h3>
             </div>
           </div><!-- End Feature Item -->
 
           <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="200">
             <div class="features-item">
-            <i class="bi bi-buildings" style="color: #5578ff;"></i>
+              <i class="bi bi-buildings" style="color: #5578ff;"></i>
               <h3><a href="" class="stretched-link">Daftar</a></h3>
             </div>
           </div><!-- End Feature Item -->
@@ -379,14 +379,14 @@ include('./layouts/NAV.php');
           </div><!-- End Feature Item -->
           <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="100">
             <div class="features-item">
-            <i class="bi bi-buildings" style="color: #ffbb2c;"></i>
+              <i class="bi bi-buildings" style="color: #ffbb2c;"></i>
               <h3><a href="" class="stretched-link">Info PPDB</a></h3>
             </div>
           </div><!-- End Feature Item -->
 
           <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="200">
             <div class="features-item">
-            <i class="bi bi-buildings" style="color: #5578ff;"></i>
+              <i class="bi bi-buildings" style="color: #5578ff;"></i>
               <h3><a href="" class="stretched-link">Daftar</a></h3>
             </div>
           </div><!-- End Feature Item -->
@@ -406,14 +406,14 @@ include('./layouts/NAV.php');
           </div><!-- End Feature Item -->
           <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="100">
             <div class="features-item">
-            <i class="bi bi-buildings" style="color: #ffbb2c;"></i>
+              <i class="bi bi-buildings" style="color: #ffbb2c;"></i>
               <h3><a href="" class="stretched-link">Info PPDB</a></h3>
             </div>
           </div><!-- End Feature Item -->
 
           <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="200">
             <div class="features-item">
-            <i class="bi bi-buildings" style="color: #5578ff;"></i>
+              <i class="bi bi-buildings" style="color: #5578ff;"></i>
               <h3><a href="" class="stretched-link">Daftar</a></h3>
             </div>
           </div><!-- End Feature Item -->
@@ -433,14 +433,14 @@ include('./layouts/NAV.php');
           </div><!-- End Feature Item -->
           <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="100">
             <div class="features-item">
-            <i class="bi bi-buildings" style="color: #ffbb2c;"></i>
+              <i class="bi bi-buildings" style="color: #ffbb2c;"></i>
               <h3><a href="" class="stretched-link">Info PPDB</a></h3>
             </div>
           </div><!-- End Feature Item -->
 
           <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="200">
             <div class="features-item">
-            <i class="bi bi-buildings" style="color: #5578ff;"></i>
+              <i class="bi bi-buildings" style="color: #5578ff;"></i>
               <h3><a href="" class="stretched-link">Daftar</a></h3>
             </div>
           </div><!-- End Feature Item -->
@@ -458,14 +458,14 @@ include('./layouts/NAV.php');
               <h3><a href="" class="stretched-link">Info Gelombang 2</a></h3>
             </div>
           </div><!-- End Feature Item -->
-          
+
           <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="400">
             <div class="features-item">
               <i class="bi bi-buildings" style="btn btn-danger"></i>
               <h3><a href="" class="stretched-link">kembali</a></h3>
             </div>
           </div><!-- End Feature Item -->
-      </div>
+        </div>
 
     </section><!-- /Features Section -->
   </main>
@@ -504,6 +504,3 @@ include('./layouts/NAV.php');
   <script src="assets/js/main.js"></script>
 
 </body>
-
-
-

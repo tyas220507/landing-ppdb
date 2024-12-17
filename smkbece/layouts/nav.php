@@ -3,7 +3,7 @@
 
       <a href="index.html" class="logo d-flex align-items-center">
         <!-- Add the logo image before the text -->
-        <img src="assets/img/bc.png" alt="Logo" style="max-height: 50px; margin-right: 10px;"> <!-- Logo image -->
+        <img src="<?= ASSETS_PATH ?>img/bc.png" alt="Logo" style="max-height: 50px; margin-right: 10px;"> <!-- Logo image -->
 
         <!-- Text "SMK Bina Cendekia" -->
         <h1 class="sitename">SMK Bina Cendekia</h1>

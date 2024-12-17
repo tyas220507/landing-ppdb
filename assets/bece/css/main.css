@@ -816,6 +816,10 @@ section,
   z-index: 3;
 }
 
+.justify-text {
+  text-align: justify;
+}
+
 .hero h1 {
   margin: 0 0 20px 0;
   font-size: 48px;

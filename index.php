@@ -1,33 +1,34 @@
 <?php
-include('./layouts/header.php');
+include'./smkbece/layouts/header.php';
 ?>
 
 <body class="index-page">
 
 
   <?php
-  include('./layouts/nav.php');
+  include'./smkbece/layouts/nav.php';
   ?>
 
   <main class="main">
 
     <!-- Hero Section -->
     <section id="hero" class="hero section dark-background" style="min-height: 100vh; padding: 80px 0;">
-      <img src="assets/img/school.jpg" alt="" class="hero-bg">
+      <img src="<?= ASSETS_PATH ?>img/school.jpg" alt="" class="hero-bg">
 
       <div class="container">
         <div class="row gy-8 justify-content-between">
           <div class="col-lg-5 order-lg-last hero-img" data-aos="zoom-out" data-aos-delay="100">
-            <img src="assets/img/p1.png" width="600px" height="auto" class=" animated" alt="">
+            <img src="<?= ASSETS_PATH ?>img/p1.png" width="600px" height="auto" class=" animated" alt="">
           </div>
 
           <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-in">
-            <h2>SMK Bina Cendekia Cirebon</h2>
-            <p>Jadilah bagian dari SMK Bina Cendekia Cirebon, tempat di mana masa depanmu dimulai dengan pendidikan berkualitas, keterampilan nyata, dan peluang karir yang tak terbatas!.</p>
+            <h2 class="justify-text">SMK Bina Cendekia Cirebon</h2>
+            <p class="justify-text">Jadilah bagian dari SMK Bina Cendekia Cirebon, tempat di mana masa depanmu dimulai dengan pendidikan berkualitas, keterampilan nyata, dan peluang karir yang tak terbatas!.</p>
             <div class="d-flex">
               <a href="daftar.php" class="btn-get-started">Lihat Selengkapnya >></a>
             </div>
           </div>
+
         </div>
       </div>
 
@@ -49,11 +50,11 @@ include('./layouts/header.php');
 
     <!--visimisi-->
     <section id="details" class="details section">
-      <div class="card text-white bg-success mb-7" style="max-width: 700rem;">
+      <div class="card text-white mb-7" style="max-width: 700rem;  background-color:#0c0091;">
         <div class="container">
           <div class="row gy-4 align-items-center">
             <div class="col-md-5 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
-              <img src="assets/img/bc.png" class="img-fluid" alt="" style="width: 75%%; height: 300px;">
+              <img src="<?= ASSETS_PATH ?>img/bc.png" class="img-fluid" alt="" style="width: 75%%; height: 300px;">
             </div>
             <div class="col-md-7" data-aos="fade-up" data-aos-delay="100">
               <h1><b>SMK Bina Cendekia Cirebon </b></h1>
@@ -68,7 +69,7 @@ include('./layouts/header.php');
 
 <--jurusan-->
     <section id="team" class="team section">
-      <div class="card text-white bg-success mb-7" style="max-width: 700rem;">
+      <div class="card text-white mb-7" style="max-width: 700rem; background-color:#0c0091;">
         <div class="container section-title" data-aos="fade-up">
           <h2>Keahlian</h2>
           <div><span>Hadir Dengan Pilihan Kompetensi
@@ -82,7 +83,7 @@ include('./layouts/header.php');
             <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
               <div class="member">
                 <div class="pic">
-                  <img src="assets/img/team/a.jpeg" class="img-fluid" alt="" style="width: 100%; height: 500px; object-fit: cover;">
+                  <img src="<?= ASSETS_PATH ?>img/team/a.jpeg" class="img-fluid" alt="" style="width: 100%; height: 500px; object-fit: cover;">
                 </div>
                 <div class="member-info">
                   <h4>Rekayasa Perangkat Lunak (RPL)</h4>
@@ -99,7 +100,7 @@ include('./layouts/header.php');
             <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
               <div class="member">
                 <div class="pic">
-                  <img src="assets/img/team/b.jpeg" class="img-fluid" alt="" style="width: 100%; height: 500px; object-fit: cover;">
+                  <img src="<?= ASSETS_PATH ?>img/team/b.jpeg" class="img-fluid" alt="" style="width: 100%; height: 500px; object-fit: cover;">
                 </div>
                 <div class="member-info">
                   <h4>Layanan Kesehatan</h4>
@@ -116,7 +117,7 @@ include('./layouts/header.php');
             <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
               <div class="member">
                 <div class="pic">
-                  <img src="assets/img/team/c.jpeg" class="img-fluid" alt="" style="width: 100%; height: 500px; object-fit: cover;">
+                  <img src="<?= ASSETS_PATH ?>img/team/c.jpeg" class="img-fluid" alt="" style="width: 100%; height: 500px; object-fit: cover;">
                 </div>
                 <div class="member-info">
                   <h4>Tata Busana</h4>
@@ -140,7 +141,7 @@ include('./layouts/header.php');
             <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
               <div class="member">
                 <div class="pic">
-                  <img src="assets/img/team/d.jpeg" class="img-fluid" alt="" style="width: 100%; height: 500px; object-fit: cover;">
+                  <img src="<?= ASSETS_PATH ?>img/team/d.jpeg" class="img-fluid" alt="" style="width: 100%; height: 500px; object-fit: cover;">
                 </div>
                 <div class="member-info">
                   <h4>Desain Komunikasi Visual</h4>
@@ -158,7 +159,7 @@ include('./layouts/header.php');
             <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
               <div class="member">
                 <div class="pic">
-                  <img src="assets/img/team/a.jpeg" class="img-fluid" alt="" style="width: 100%; height: 500px; object-fit: cover;">
+                  <img src="<?= ASSETS_PATH ?>img/team/a.jpeg" class="img-fluid" alt="" style="width: 100%; height: 500px; object-fit: cover;">
                 </div>
                 <div class="member-info">
                   <h4>Teknik Bodi Otomotif</h4>
@@ -175,7 +176,7 @@ include('./layouts/header.php');
             <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
               <div class="member">
                 <div class="pic">
-                  <img src="assets/img/team/b.jpeg" class="img-fluid" alt="" style="width: 100%; height: 500px; object-fit: cover;">
+                  <img src="<?= ASSETS_PATH ?>img/team/b.jpeg" class="img-fluid" alt="" style="width: 100%; height: 500px; object-fit: cover;">
                 </div>
                 <div class="member-info">
                   <h4>Samsung Tech Institute</h4>
@@ -206,7 +207,7 @@ include('./layouts/header.php');
         <div class="container">
           <div class="row gy-4 align-items-center features-item">
             <div class="col-md-5 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
-              <img src="assets/img/p1.png" width="500px" height="auto" class=" animated" alt="">
+              <img src="<?= ASSETS_PATH ?>img/p1.png" width="500px" height="auto" class=" animated" alt="">
             </div>
             <div class="col-md-7" data-aos="fade-up" data-aos-delay="100">
               <h3>Alasan mengapa Anda harus mempertimbangkan untuk masuk ke SMK Bina Cendekia Cirebon:</h3>
@@ -246,7 +247,7 @@ include('./layouts/header.php');
             <div class="col-lg-3 col-md-4">
               <div class="gallery-item">
                 <a href="assets/img/gallery/rpl.jpeg" class="glightbox" data-gallery="images-gallery">
-                  <img src="assets/img/gallery/rpl.jpeg" class="img-fluid" alt="" style="width: 110%; height: 240px; object-fit: cover;">
+                  <img src="<?= ASSETS_PATH ?>img/gallery/rpl.jpeg" class="img-fluid" alt="" style="width: 110%; height: 240px; object-fit: cover;">
                 </a>
                 <div class="caption" style="text-align: center; padding: 5px; background-color: rgba(0, 0, 0, 0.5); color: white; font-size: 12px;">
                   Fasilitas RPL
@@ -257,7 +258,7 @@ include('./layouts/header.php');
             <div class="col-lg-3 col-md-4">
               <div class="gallery-item">
                 <a href="assets/img/gallery/lk.jpeg" class="glightbox" data-gallery="images-gallery">
-                  <img src="assets/img/gallery/lk.jpeg" class="img-fluid" alt="" style="width: 110%; height: 240px; object-fit: cover;">
+                  <img src="<?= ASSETS_PATH ?>img/gallery/lk.jpeg" class="img-fluid" alt="" style="width: 110%; height: 240px; object-fit: cover;">
                 </a>
                 <div class="caption" style="text-align: center; padding: 5px; background-color: rgba(0, 0, 0, 0.5); color: white; font-size: 12px;">
                   Fasilitas LK
@@ -268,7 +269,7 @@ include('./layouts/header.php');
             <div class="col-lg-3 col-md-4">
               <div class="gallery-item">
                 <a href="assets/img/gallery/tbo.jpeg" class="glightbox" data-gallery="images-gallery">
-                  <img src="assets/img/gallery/tbo.jpeg" class="img-fluid" alt="" style="width: 110%; height: 240px; object-fit: cover;">
+                  <img src="<?= ASSETS_PATH ?>img/gallery/tbo.jpeg" class="img-fluid" alt="" style="width: 110%; height: 240px; object-fit: cover;">
                 </a>
                 <div class="caption" style="text-align: center; padding: 5px; background-color: rgba(0, 0, 0, 0.5); color: white; font-size: 12px;">
                   Fasilitas TBO
@@ -279,7 +280,7 @@ include('./layouts/header.php');
             <div class="col-lg-3 col-md-4">
               <div class="gallery-item">
                 <a href="assets/img/gallery/tabus.jpeg" class="glightbox" data-gallery="images-gallery">
-                  <img src="assets/img/gallery/tabus.jpeg" class="img-fluid" alt="" style="width: 110%; height: 240px; object-fit: cover;">
+                  <img src="<?= ASSETS_PATH ?>img/gallery/tabus.jpeg" class="img-fluid" alt="" style="width: 110%; height: 240px; object-fit: cover;">
                 </a>
                 <div class="caption" style="text-align: center; padding: 5px; background-color: rgba(0, 0, 0, 0.5); color: white; font-size: 12px;">
                   Fasilitas Tabus
@@ -290,7 +291,7 @@ include('./layouts/header.php');
             <div class="col-lg-3 col-md-4">
               <div class="gallery-item">
                 <a href="assets/img/gallery/sti.jpeg" class="glightbox" data-gallery="images-gallery">
-                  <img src="assets/img/gallery/sti.jpeg" class="img-fluid" alt="" style="width: 110%; height: 240px; object-fit: cover;">
+                  <img src="<?= ASSETS_PATH ?>img/gallery/sti.jpeg" class="img-fluid" alt="" style="width: 110%; height: 240px; object-fit: cover;">
                 </a>
                 <div class="caption" style="text-align: center; padding: 5px; background-color: rgba(0, 0, 0, 0.5); color: white; font-size: 12px;">
                   Fasilitas STI
@@ -301,7 +302,7 @@ include('./layouts/header.php');
             <div class="col-lg-3 col-md-4">
               <div class="gallery-item">
                 <a href="assets/img/gallery/perpus.jpeg" class="glightbox" data-gallery="images-gallery">
-                  <img src="assets/img/gallery/perpus.jpeg" class="img-fluid" alt="" style="width: 110%; height: 240px; object-fit: cover;">
+                  <img src="<?= ASSETS_PATH ?>img/gallery/perpus.jpeg" class="img-fluid" alt="" style="width: 110%; height: 240px; object-fit: cover;">
                 </a>
                 <div class="caption" style="text-align: center; padding: 5px; background-color: rgba(0, 0, 0, 0.5); color: white; font-size: 12px;">
                   Fasilitas Perpustakaan
@@ -312,7 +313,7 @@ include('./layouts/header.php');
             <div class="col-lg-3 col-md-4">
               <div class="gallery-item">
                 <a href="assets/img/gallery/toilet.jpg" class="glightbox" data-gallery="images-gallery">
-                  <img src="assets/img/gallery/toilet.jpg" class="img-fluid" alt="" style="width: 110%; height: 240px; object-fit: cover;">
+                  <img src="<?= ASSETS_PATH ?>img/gallery/toilet.jpg" class="img-fluid" alt="" style="width: 110%; height: 240px; object-fit: cover;">
                 </a>
                 <div class="caption" style="text-align: center; padding: 5px; background-color: rgba(0, 0, 0, 0.5); color: white; font-size: 12px;">
                   Fasilitas Toilet
@@ -323,7 +324,7 @@ include('./layouts/header.php');
             <div class="col-lg-3 col-md-4">
               <div class="gallery-item">
                 <a href="assets/img/gallery/rpl.jpeg" class="glightbox" data-gallery="images-gallery">
-                  <img src="assets/img/gallery/rpl.jpeg" class="img-fluid" alt="" style="width: 110%; height: 240px; object-fit: cover;">
+                  <img src="<?= ASSETS_PATH ?>img/gallery/rpl.jpeg" class="img-fluid" alt="" style="width: 110%; height: 240px; object-fit: cover;">
                 </a>
                 <div class="caption" style="text-align: center; padding: 5px; background-color: rgba(0, 0, 0, 0.5); color: white; font-size: 12px;">
                   Fasilitas RPL
@@ -355,7 +356,7 @@ include('./layouts/header.php');
 
             <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
               <div class="member">
-                <div class="pic"><img src="assets/img/team/team-1.jpg" class="img-fluid" alt=""></div>
+                <div class="pic"><img src="<?= ASSETS_PATH ?>img/team/team-1.jpg" class="img-fluid" alt=""></div>
                 <div class="member-info">
                   <h4>Walter White</h4>
                   <span>Chief Executive Officer</span>
@@ -371,7 +372,7 @@ include('./layouts/header.php');
 
             <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
               <div class="member">
-                <div class="pic"><img src="assets/img/team/team-2.jpg" class="img-fluid" alt=""></div>
+                <div class="pic"><img src="<?= ASSETS_PATH ?>img/team/team-2.jpg" class="img-fluid" alt=""></div>
                 <div class="member-info">
                   <h4>Sarah Jhonson</h4>
                   <span>Product Manager</span>
@@ -387,7 +388,7 @@ include('./layouts/header.php');
 
             <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
               <div class="member">
-                <div class="pic"><img src="assets/img/team/team-3.jpg" class="img-fluid" alt=""></div>
+                <div class="pic"><img src="<?= ASSETS_PATH ?>img/team/team-3.jpg" class="img-fluid" alt=""></div>
                 <div class="member-info">
                   <h4>William Anderson</h4>
                   <span>CTO</span>
@@ -547,36 +548,7 @@ include('./layouts/header.php');
       </div>
     </div>
 
-    <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename">Bootslander</strong> <span>All Rights Reserved</span></p>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you've purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-      </div>
-    </div>
-
-  </footer>
-
-  <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
-  <!-- Preloader -->
-  <div id="preloader"></div>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-
-  <!-- Main JS File -->
-  <script src="assets/js/main.js"></script>
-
-</body>
-
-</html>
+   
+  <?php
+include'./smkbece/layouts/footer.php';
+?>
