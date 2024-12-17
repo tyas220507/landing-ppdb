@@ -4,23 +4,9 @@ include ('./layouts/header.php');
 
 <body class="index-page">
 
-<header id="header" class="header d-flex align-items-center fixed-top">
-  <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
-    
-    <a href="index.html" class="logo d-flex align-items-center">
-      <!-- Add the logo image before the text -->
-      <img src="assets/img/bc.png" alt="Logo" style="max-height: 50px; margin-right: 10px;"> <!-- Logo image -->
-      
-      <!-- Text "SMK Bina Cendekia" -->
-      <h1 class="sitename">SMK Bina Cendekia</h1>
-    </a>
-
-    <nav id="navmenu" class="navmenu">
-      <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-    </nav>
-
-  </div>
-</header>
+<?php
+include('./layouts/nav.php');
+?>
 
 
   <main class="main">
