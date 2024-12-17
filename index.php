@@ -217,36 +217,7 @@ include('./layouts/header.php');
 
 
 
-    <!-- Details Section -->
-    <section id="details" class="details section">
-      <div class="container">
-        <div class="row gy-4 align-items-center features-item">
-          <div class="col-md-5 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
-            <img src="assets/img/p1.png" width="500px" height="auto" class=" animated" alt="">
-          </div>
-          <div class="col-md-7" data-aos="fade-up" data-aos-delay="100">
-            <h3>Alasan mengapa Anda harus mempertimbangkan untuk masuk ke SMK Bina Cendekia Cirebon:</h3>
-            <p>
-            <ul>
-              <li style="display: flex; align-items: center; margin: 10px 0; padding: 10px; background-color: #fff; border-radius: 5px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);"><i class="bi bi-check"></i><span> Menggunakan kurikulum yang relevan dengan kebutuhan industri dan perkembangan teknologi.</span></li>
-              <li style="display: flex; align-items: center; margin: 10px 0; padding: 10px; background-color: #fff; border-radius: 5px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);"><i class="bi bi-check"></i> <span> Guru yang berpengalaman di bidangnya.</span></li>
-              <li style="display: flex; align-items: center; margin: 10px 0; padding: 10px; background-color: #fff; border-radius: 5px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);"><i class="bi bi-check"></i> <span> Dilengkapi dengan ruang kelas yang nyaman dan laboratorium modern.</span></li>
-              <li style="display: flex; align-items: center; margin: 10px 0; padding: 10px; background-color: #fff; border-radius: 5px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);"><i class="bi bi-check"></i><span> Memiliki kerjasama dengan perusahaan untuk pengalaman kerja nyata.</span></li>
-              <li style="display: flex; align-items: center; margin: 10px 0; padding: 10px; background-color: #fff; border-radius: 5px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);"><i class="bi bi-check"></i> <span> Menyediakan berbagai jurusan yang siap memasuki dunia kerja.</span></li>
-              <li style="display: flex; align-items: center; margin: 10px 0; padding: 10px; background-color: #fff; border-radius: 5px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);"><i class="bi bi-check"></i> <span> Fokus pada pengembangan keterampilan interpersonal dan profesional.</span></li>
-              <li style="display: flex; align-items: center; margin: 10px 0; padding: 10px; background-color: #fff; border-radius: 5px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);"><i class="bi bi-check"></i> <span> Memiliki akreditasi yang menunjukkan kualitas pendidikan yang tinggi.</span></li>
-              <li style="display: flex; align-items: center; margin: 10px 0; padding: 10px; background-color: #fff; border-radius: 5px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);"><i class="bi bi-check"></i><span> Beragam kegiatan ekstrakurikuler yang mendukung pengembangan minat dan bakat.</span></li>
-            </ul>
 
-          </div>
-        </div><!-- End Features Item -->
-
-       
-
-      </div>
-
-    </section>
-    <!-- End Details Section -->
 
     <!-- Gallery Section -->
     <section id="gallery" class="gallery section">
@@ -359,72 +330,103 @@ include('./layouts/header.php');
 
     <!-- Team Section -->
     <section id="team" class="team section">
+      <div class="card text-white bg-primary mb-9" style="max-width: 180rem;">
+        <div class="card-body">
+          <!-- Section Title -->
+          <div class="container section-title" data-aos="fade-up">
+            <h2>Prestasi</h2>
+            <div><span>Prestasi yang</span> <span class="description-title">di dapat oleh siswa smk bina cendekia</span></div>
+          </div><!-- End Section Title -->
+          <div class="container">
+            <div class="row gy-5">
+              <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                <div class="member">
+                  <div class="pic"><img src="assets/img/team/prestasi_lk.jpeg" class="img-fluid" alt=""></div>
+                  <div class="member-info">
+                  <h4>Hilda Fadillah</h4>
+                  <span>Layanan Kesehatan</span>
+                    <div class="social">
+                      <a href=""><i class="bi bi-twitter-x"></i></a>
+                      <a href=""><i class="bi bi-facebook"></i></a>
+                      <a href=""><i class="bi bi-instagram"></i></a>
+                      <a href=""><i class="bi bi-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div><!-- End Team Member -->
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Team</h2>
-        <div><span>Check Our</span> <span class="description-title">Team</span></div>
-      </div><!-- End Section Title -->
+              <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                <div class="member">
+                  <div class="pic"><img src="assets/img/team/prestasi_rpl.jpeg" class="img-fluid" alt=""></div>
+                  <div class="member-info">
+                    <h4>Riyanti</h4>
+                    <span>Rekayasa Perangkat Lunak</span>
+                    <div class="social">
+                      <a href=""><i class="bi bi-twitter-x"></i></a>
+                      <a href=""><i class="bi bi-facebook"></i></a>
+                      <a href=""><i class="bi bi-instagram"></i></a>
+                      <a href=""><i class="bi bi-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div><!-- End Team Member -->
 
+              <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                <div class="member">
+                  <div class="pic"><img src="assets/img/team/prestasi_lk.jpeg" class="img-fluid" alt=""></div>
+                  <div class="member-info">
+                    <h4>Hilda Fadillah</h4>
+                    <span>Layanan Kesehatan</span>
+                    <div class="social">
+                      <a href=""><i class="bi bi-twitter-x"></i></a>
+                      <a href=""><i class="bi bi-facebook"></i></a>
+                      <a href=""><i class="bi bi-instagram"></i></a>
+                      <a href=""><i class="bi bi-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div><!-- End Team Member -->
+
+            </div>
+
+          </div>
+
+    </section>
+    <!-- /Team Section -->
+    </div>
+
+
+
+    <!-- Details Section -->
+    <section id="details" class="details section">
       <div class="container">
+        <div class="row gy-4 align-items-center features-item">
+          <div class="col-md-5 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
+            <img src="assets/img/p1.png" width="500px" height="auto" class=" animated" alt="">
+          </div>
+          <div class="col-md-7" data-aos="fade-up" data-aos-delay="100">
+            <h3>Alasan mengapa Anda harus mempertimbangkan untuk masuk ke SMK Bina Cendekia Cirebon:</h3>
+            <p>
+            <ul>
+              <li style="display: flex; align-items: center; margin: 10px 0; padding: 10px; background-color: #fff; border-radius: 5px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);"><i class="bi bi-check"></i><span> Menggunakan kurikulum yang relevan dengan kebutuhan industri dan perkembangan teknologi.</span></li>
+              <li style="display: flex; align-items: center; margin: 10px 0; padding: 10px; background-color: #fff; border-radius: 5px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);"><i class="bi bi-check"></i> <span> Guru yang berpengalaman di bidangnya.</span></li>
+              <li style="display: flex; align-items: center; margin: 10px 0; padding: 10px; background-color: #fff; border-radius: 5px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);"><i class="bi bi-check"></i> <span> Dilengkapi dengan ruang kelas yang nyaman dan laboratorium modern.</span></li>
+              <li style="display: flex; align-items: center; margin: 10px 0; padding: 10px; background-color: #fff; border-radius: 5px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);"><i class="bi bi-check"></i><span> Memiliki kerjasama dengan perusahaan untuk pengalaman kerja nyata.</span></li>
+              <li style="display: flex; align-items: center; margin: 10px 0; padding: 10px; background-color: #fff; border-radius: 5px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);"><i class="bi bi-check"></i> <span> Menyediakan berbagai jurusan yang siap memasuki dunia kerja.</span></li>
+              <li style="display: flex; align-items: center; margin: 10px 0; padding: 10px; background-color: #fff; border-radius: 5px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);"><i class="bi bi-check"></i> <span> Fokus pada pengembangan keterampilan interpersonal dan profesional.</span></li>
+              <li style="display: flex; align-items: center; margin: 10px 0; padding: 10px; background-color: #fff; border-radius: 5px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);"><i class="bi bi-check"></i> <span> Memiliki akreditasi yang menunjukkan kualitas pendidikan yang tinggi.</span></li>
+              <li style="display: flex; align-items: center; margin: 10px 0; padding: 10px; background-color: #fff; border-radius: 5px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);"><i class="bi bi-check"></i><span> Beragam kegiatan ekstrakurikuler yang mendukung pengembangan minat dan bakat.</span></li>
+            </ul>
 
-        <div class="row gy-5">
+          </div>
+        </div><!-- End Features Item -->
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="member">
-              <div class="pic"><img src="assets/img/team/team-1.jpg" class="img-fluid" alt=""></div>
-              <div class="member-info">
-                <h4>Walter White</h4>
-                <span>Chief Executive Officer</span>
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter-x"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-          </div><!-- End Team Member -->
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="member">
-              <div class="pic"><img src="assets/img/team/team-2.jpg" class="img-fluid" alt=""></div>
-              <div class="member-info">
-                <h4>Sarah Jhonson</h4>
-                <span>Product Manager</span>
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter-x"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-          </div><!-- End Team Member -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="member">
-              <div class="pic"><img src="assets/img/team/team-3.jpg" class="img-fluid" alt=""></div>
-              <div class="member-info">
-                <h4>William Anderson</h4>
-                <span>CTO</span>
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter-x"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-          </div><!-- End Team Member -->
-
-        </div>
 
       </div>
 
     </section>
-    <!-- /Team Section -->
-
+    <!-- End Details Section -->
 
     <!-- Contact Section -->
     <section id="contact" class="contact section">
