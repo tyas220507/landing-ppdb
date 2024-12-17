@@ -64,7 +64,7 @@ include ('./layouts/header.php');
       <div class="container">
         <div class="row gy-4 align-items-center">
           <div class="col-md-5 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
-            <img src="assets/img/logo_rpl.png" class="img-fluid" alt="" style="width: 100%; height: 500px;">
+            <img src="assets/img/logo/pplg.png" class="img-fluid" alt="" style="width: 100%; height: 500px;">
           </div>
           <div class="col-md-7" data-aos="fade-up" data-aos-delay="100">
             <h1>Rekayasa Perangkat Lunak (RPL) SMK Bina Cendekia Cirebon</h1>

@@ -237,7 +237,7 @@ include('./layouts/header.php');
               <a href="assets/img/gallery/rpl.jpeg" class="glightbox" data-gallery="images-gallery">
                 <img src="assets/img/gallery/rpl.jpeg" class="img-fluid" alt="" style="width: 110%; height: 240px; object-fit: cover;">
               </a>
-              <div class="caption" style="text-align: center; padding: 5px; background-color: rgba(0, 0, 0, 0.5); color: white; font-size: 12px;">
+              <div class="caption" style="text-align: center; padding: 5px; background-color: rgb(11, 21, 110); color: white; font-size: 12px;">
                 Fasilitas RPL
               </div>
             </div>
@@ -248,7 +248,7 @@ include('./layouts/header.php');
               <a href="assets/img/gallery/lk.jpeg" class="glightbox" data-gallery="images-gallery">
                 <img src="assets/img/gallery/lk.jpeg" class="img-fluid" alt="" style="width: 110%; height: 240px; object-fit: cover;">
               </a>
-              <div class="caption" style="text-align: center; padding: 5px; background-color: rgba(0, 0, 0, 0.5); color: white; font-size: 12px;">
+              <div class="caption" style="text-align: center; padding: 5px; background-color:  rgb(11, 21, 110); color: white; font-size: 12px;">
                 Fasilitas LK
               </div>
             </div>
@@ -259,7 +259,7 @@ include('./layouts/header.php');
               <a href="assets/img/gallery/tbo.jpeg" class="glightbox" data-gallery="images-gallery">
                 <img src="assets/img/gallery/tbo.jpeg" class="img-fluid" alt="" style="width: 110%; height: 240px; object-fit: cover;">
               </a>
-              <div class="caption" style="text-align: center; padding: 5px; background-color: rgba(0, 0, 0, 0.5); color: white; font-size: 12px;">
+              <div class="caption" style="text-align: center; padding: 5px; background-color:  rgb(11, 21, 110); color: white; font-size: 12px;">
                 Fasilitas TBO
               </div>
             </div>
@@ -270,7 +270,7 @@ include('./layouts/header.php');
               <a href="assets/img/gallery/tabus.jpeg" class="glightbox" data-gallery="images-gallery">
                 <img src="assets/img/gallery/tabus.jpeg" class="img-fluid" alt="" style="width: 110%; height: 240px; object-fit: cover;">
               </a>
-              <div class="caption" style="text-align: center; padding: 5px; background-color: rgba(0, 0, 0, 0.5); color: white; font-size: 12px;">
+              <div class="caption" style="text-align: center; padding: 5px; background-color:  rgb(11, 21, 110); color: white; font-size: 12px;">
                 Fasilitas Tabus
               </div>
             </div>
@@ -281,7 +281,7 @@ include('./layouts/header.php');
               <a href="assets/img/gallery/sti.jpeg" class="glightbox" data-gallery="images-gallery">
                 <img src="assets/img/gallery/sti.jpeg" class="img-fluid" alt="" style="width: 110%; height: 240px; object-fit: cover;">
               </a>
-              <div class="caption" style="text-align: center; padding: 5px; background-color: rgba(0, 0, 0, 0.5); color: white; font-size: 12px;">
+              <div class="caption" style="text-align: center; padding: 5px; background-color:  rgb(11, 21, 110); color: white; font-size: 12px;">
                 Fasilitas STI
               </div>
             </div>
@@ -292,7 +292,7 @@ include('./layouts/header.php');
               <a href="assets/img/gallery/perpus.jpeg" class="glightbox" data-gallery="images-gallery">
                 <img src="assets/img/gallery/perpus.jpeg" class="img-fluid" alt="" style="width: 110%; height: 240px; object-fit: cover;">
               </a>
-              <div class="caption" style="text-align: center; padding: 5px; background-color: rgba(0, 0, 0, 0.5); color: white; font-size: 12px;">
+              <div class="caption" style="text-align: center; padding: 5px; background-color:  rgb(11, 21, 110); color: white; font-size: 12px;">
                 Fasilitas Perpustakaan
               </div>
             </div>
@@ -303,7 +303,7 @@ include('./layouts/header.php');
               <a href="assets/img/gallery/toilet.jpg" class="glightbox" data-gallery="images-gallery">
                 <img src="assets/img/gallery/toilet.jpg" class="img-fluid" alt="" style="width: 110%; height: 240px; object-fit: cover;">
               </a>
-              <div class="caption" style="text-align: center; padding: 5px; background-color: rgba(0, 0, 0, 0.5); color: white; font-size: 12px;">
+              <div class="caption" style="text-align: center; padding: 5px; background-color:  rgb(11, 21, 110); color: white; font-size: 12px;">
                 Fasilitas Toilet
               </div>
             </div>
@@ -314,7 +314,7 @@ include('./layouts/header.php');
               <a href="assets/img/gallery/rpl.jpeg" class="glightbox" data-gallery="images-gallery">
                 <img src="assets/img/gallery/rpl.jpeg" class="img-fluid" alt="" style="width: 110%; height: 240px; object-fit: cover;">
               </a>
-              <div class="caption" style="text-align: center; padding: 5px; background-color: rgba(0, 0, 0, 0.5); color: white; font-size: 12px;">
+              <div class="caption" style="text-align: center; padding: 5px; background-color:  rgb(11, 21, 110); color: white; font-size: 12px;">
                 Fasilitas RPL
               </div>
             </div>
@@ -325,76 +325,84 @@ include('./layouts/header.php');
       </div>
 
     </section>
-
     <!--Gallery Section -->
 
-    <!-- Team Section -->
-    <section id="team" class="team section">
-      <div class="card text-white bg-primary mb-9" style="max-width: 180rem;">
-        <div class="card-body">
-          <!-- Section Title -->
-          <div class="container section-title" data-aos="fade-up">
-            <h2>Prestasi</h2>
-            <div><span>Prestasi yang</span> <span class="description-title">di dapat oleh siswa smk bina cendekia</span></div>
-          </div><!-- End Section Title -->
-          <div class="container">
-            <div class="row gy-5">
-              <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                <div class="member">
-                  <div class="pic"><img src="assets/img/team/prestasi_lk.jpeg" class="img-fluid" alt=""></div>
-                  <div class="member-info">
-                  <h4>Hilda Fadillah</h4>
-                  <span>Layanan Kesehatan</span>
-                    <div class="social">
-                      <a href=""><i class="bi bi-twitter-x"></i></a>
-                      <a href=""><i class="bi bi-facebook"></i></a>
-                      <a href=""><i class="bi bi-instagram"></i></a>
-                      <a href=""><i class="bi bi-linkedin"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </div><!-- End Team Member -->
 
-              <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-                <div class="member">
-                  <div class="pic"><img src="assets/img/team/prestasi_rpl.jpeg" class="img-fluid" alt=""></div>
-                  <div class="member-info">
-                    <h4>Riyanti</h4>
-                    <span>Rekayasa Perangkat Lunak</span>
-                    <div class="social">
-                      <a href=""><i class="bi bi-twitter-x"></i></a>
-                      <a href=""><i class="bi bi-facebook"></i></a>
-                      <a href=""><i class="bi bi-instagram"></i></a>
-                      <a href=""><i class="bi bi-linkedin"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </div><!-- End Team Member -->
 
-              <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-                <div class="member">
-                  <div class="pic"><img src="assets/img/team/prestasi_lk.jpeg" class="img-fluid" alt=""></div>
-                  <div class="member-info">
-                    <h4>Hilda Fadillah</h4>
-                    <span>Layanan Kesehatan</span>
-                    <div class="social">
-                      <a href=""><i class="bi bi-twitter-x"></i></a>
-                      <a href=""><i class="bi bi-facebook"></i></a>
-                      <a href=""><i class="bi bi-instagram"></i></a>
-                      <a href=""><i class="bi bi-linkedin"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </div><!-- End Team Member -->
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section dark-background">
 
-            </div>
+      <img src="assets/img/school.jpg" class="testimonials-bg" alt="">
 
-          </div>
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-    </section>
-    <!-- /Team Section -->
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              }
+            }
+          </script>
+          <!-- Team Section -->
+   
+<!-- Section Title -->
+
+  <h1 class="text-center">Wujudkan Impianmu Bersama <br>
+SMK BINA CENDEKIA CIREBON</h1>
+  <div class="text-center"><h5>SMK Bina Cendekia Cirebon menjadi wahana bertumbuh untuk mempersiapkan diri melanjutkan perjalanan menuntut ilmu di Perguruan Tinggi Negeri.</h5></div>
+</div><!-- End Section Title -->
+
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="center">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="assets/img/team/d.jpeg" width="25%" class="img-fluid" alt="">
+      <img src="assets/img/team/d.jpeg" width="25%" class="img-fluid" alt="">
+      <img src="assets/img/team/d.jpeg" width="25%" class="img-fluid" alt="">
     </div>
+    <div class="carousel-item">
+    <img src="assets/img/team/d.jpeg" width="25%" class="img-fluid" alt="">
+      <img src="assets/img/team/d.jpeg" width="25%" class="img-fluid" alt="">
+      <img src="assets/img/team/d.jpeg" width="25%" class="img-fluid" alt="">
+    </div>
+    <div class="carousel-item">
+    <img src="assets/img/team/d.jpeg" width="25%" class="img-fluid" alt="">
+      <img src="assets/img/team/d.jpeg" width="25%" class="img-fluid" alt="">
+      <img src="assets/img/team/d.jpeg" width="25%" class="img-fluid" alt="">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+          </div>
+</div>
+<style>
+  .center {
+  text-align: center;
+}
+</style>
 
+<div class="container mt-3">
+  <div class="row gy-5">
+
+   
+</section><!-- /Team Section -->
+          </section>
+<!-- End testimonial item -->
 
 
     <!-- Details Section -->
