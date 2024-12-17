@@ -1,5 +1,5 @@
 <?php
-include ('./layouts/header.php');
+include('./layouts/header.php');
 ?>
 
 <body class="index-page">
@@ -13,7 +13,7 @@ include ('./layouts/header.php');
         <h1 class="sitename">SMK BINA CENDEKIA </h1>
       </a>
 
-      <nav id="navmenu" class="navmenu">  
+      <nav id="navmenu" class="navmenu">
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
@@ -57,7 +57,7 @@ include ('./layouts/header.php');
 
     </section><!-- /Hero Section -->
 
-  
+
     <!-- Features Section -->
     <section id="features" class="features section">
 
@@ -65,16 +65,16 @@ include ('./layouts/header.php');
 
         <div class="row gy-4">
 
-         <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="100">
             <div class="features-item">
-            <i class="bi bi-buildings" style="color: #ffbb2c;"></i>
+              <i class="bi bi-buildings" style="color: #ffbb2c;"></i>
               <h3><a href="" class="stretched-link">Info PPDB</a></h3>
             </div>
           </div><!-- End Feature Item -->
-          
+
           <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="200">
             <div class="features-item">
-            <i class="bi bi-file-text" style="color: #5578ff;"></i>
+              <i class="bi bi-file-text" style="color: #5578ff;"></i>
               <h3><a href="asal_sekolah.php" class="stretched-link">Daftar</a></h3>
             </div>
           </div><!-- End Feature Item -->
@@ -85,7 +85,7 @@ include ('./layouts/header.php');
               <h3><a href="" class="stretched-link">Info Gelombang 1</a></h3>
             </div>
           </div><!-- End Feature Item -->
-          
+
           <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="400">
             <div class="features-item">
               <i class="bi bi-mortarboard" style="color: #11dbcf;"></i>
@@ -93,7 +93,7 @@ include ('./layouts/header.php');
             </div>
           </div><!-- End Feature Item -->
 
-         
+
         </div>
 
       </div>
@@ -190,6 +190,3 @@ include ('./layouts/header.php');
   <script src="assets/js/main.js"></script>
 
 </body>
-
-
-
