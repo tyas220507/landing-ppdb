@@ -11,12 +11,12 @@
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="index.php" class="active">Beranda</a></li>
-          <li><a href="#visimisi">Profil</a></li>
-          <li><a href="#features">Jurusan</a></li>
-          <li><a href="#gallery">Fasilitas</a></li>
-          <li><a href="ppdb.php">Info PPDB</a></li>
-          <li><a href="#contact">Kontak</a></li>
+          <li><a href="<?= BASE_URL ?>smkbece/index.php" class="active">Beranda</a></li>
+          <li><a href="<?= BASE_URL ?>smkbece/#visimisi">Profil</a></li>
+          <li><a href="<?= BASE_URL ?>smkbece/#features">Jurusan</a></li>
+          <li><a href="<?= BASE_URL ?>smkbece/#gallery">Fasilitas</a></li>
+          <li><a href="<?= BASE_URL ?>smkbece/ppdb.php">Info PPDB</a></li>
+          <li><a href="<?= BASE_URL ?>smkbece/#contact">Kontak</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
