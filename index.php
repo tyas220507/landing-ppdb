@@ -5,9 +5,9 @@ include('./layouts/header.php');
 <body class="index-page">
 
 
-<?php
-include('./layouts/nav.php');
-?>
+  <?php
+  include('./layouts/nav.php');
+  ?>
 
   <main class="main">
 
@@ -49,15 +49,17 @@ include('./layouts/nav.php');
 
     <!--visimisi-->
     <section id="details" class="details section">
-      <div class="container">
-        <div class="row gy-4 align-items-center">
-          <div class="col-md-5 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
-            <img src="assets/img/bc.png" class="img-fluid" alt="" style="width: 75%%; height: 300px;">
-          </div>
-          <div class="col-md-7" data-aos="fade-up" data-aos-delay="100">
-            <h1><b>SMK Bina Cendekia Cirebon </b></h1>
-            <p>merupakan lembaga pendidikan yang berkomitmen untuk menghasilkan lulusan yang tidak hanya terampil, tetapi juga memiliki karakter yang baik. Dengan kurikulum yang berfokus pada pengembangan keterampilan praktis dan ilmu pengetahuan yang relevan dengan kebutuhan dunia industri, sekolah ini mempersiapkan siswa untuk siap menghadapi tantangan di dunia kerja. Fasilitas yang lengkap dan tenaga pengajar yang berkompeten mendukung setiap siswa untuk berkreasi dan mengasah kemampuan mereka, sehingga siap berkontribusi dalam pembangunan bangsa.</p>
-            <p>Di SMK Bina Cendekia Cirebon, siswa tidak hanya belajar, tetapi juga dilatih untuk menjadi profesional yang kompeten dan siap berkarya di berbagai bidang. Sekolah ini memberikan pendidikan yang berfokus pada keterampilan dan penguatan karakter, menjadikannya pilihan tepat bagi mereka yang ingin meniti karier masa depan. Dengan pendidikan yang menyeluruh, SMK Bina Cendekia Cirebon siap mencetak generasi muda yang siap menghadapi tantangan global dan memberikan kontribusi positif bagi masyarakat.</p>
+      <div class="card text-white bg-success mb-7" style="max-width: 700rem;">
+        <div class="container">
+          <div class="row gy-4 align-items-center">
+            <div class="col-md-5 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
+              <img src="assets/img/bc.png" class="img-fluid" alt="" style="width: 75%%; height: 300px;">
+            </div>
+            <div class="col-md-7" data-aos="fade-up" data-aos-delay="100">
+              <h1><b>SMK Bina Cendekia Cirebon </b></h1>
+              <p>merupakan lembaga pendidikan yang berkomitmen untuk menghasilkan lulusan yang tidak hanya terampil, tetapi juga memiliki karakter yang baik. Dengan kurikulum yang berfokus pada pengembangan keterampilan praktis dan ilmu pengetahuan yang relevan dengan kebutuhan dunia industri, sekolah ini mempersiapkan siswa untuk siap menghadapi tantangan di dunia kerja. Fasilitas yang lengkap dan tenaga pengajar yang berkompeten mendukung setiap siswa untuk berkreasi dan mengasah kemampuan mereka, sehingga siap berkontribusi dalam pembangunan bangsa.</p>
+              <p>Di SMK Bina Cendekia Cirebon, siswa tidak hanya belajar, tetapi juga dilatih untuk menjadi profesional yang kompeten dan siap berkarya di berbagai bidang. Sekolah ini memberikan pendidikan yang berfokus pada keterampilan dan penguatan karakter, menjadikannya pilihan tepat bagi mereka yang ingin meniti karier masa depan. Dengan pendidikan yang menyeluruh, SMK Bina Cendekia Cirebon siap mencetak generasi muda yang siap menghadapi tantangan global dan memberikan kontribusi positif bagi masyarakat.</p>
+            </div>
           </div>
         </div>
       </div>
@@ -66,127 +68,130 @@ include('./layouts/nav.php');
 
 <--jurusan-->
     <section id="team" class="team section">
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Keahlian</h2>
-        <div><span>Hadir Dengan Pilihan Kompetensi
-          </span> <span class="description-title">Keahlian</span></div>
-      </div>
-
-      <div class="container">
-        <div class="row gy-5">
-
-          <!-- Team Member 1 -->
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="member">
-              <div class="pic">
-                <img src="assets/img/team/a.jpeg" class="img-fluid" alt="" style="width: 100%; height: 500px; object-fit: cover;">
-              </div>
-              <div class="member-info">
-                <h4>Rekayasa Perangkat Lunak (RPL)</h4>
-                <span>Rekayasa Perangkat Lunak (RPL) adalah jurusan yang fokus pada pengembangan perangkat lunak</span>
-                <p>
-                <div class="d-flex">
-                  <a href="rpl.php" class="btn-get-started" style="color: #003366;">Lihat Selengkapnya >></a>
-                </div>
-              </div>
-            </div>
-          </div><!-- End Team Member -->
-
-          <!-- Team Member 2 -->
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="member">
-              <div class="pic">
-                <img src="assets/img/team/b.jpeg" class="img-fluid" alt="" style="width: 100%; height: 500px; object-fit: cover;">
-              </div>
-              <div class="member-info">
-                <h4>Layanan Kesehatan</h4>
-                <span>Jurusan Layanan Kesehatan fokus pada manajemen dan perawatan medis di fasilitas kesehatan.</span>
-                <p>
-                <div class="d-flex">
-                  <a href="lk.php" class="btn-get-started" style="color: #003366;">Lihat Selengkapnya >></a>
-                </div>
-              </div>
-            </div>
-          </div><!-- End Team Member -->
-
-          <!-- Team Member 3 -->
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="member">
-              <div class="pic">
-                <img src="assets/img/team/c.jpeg" class="img-fluid" alt="" style="width: 100%; height: 500px; object-fit: cover;">
-              </div>
-              <div class="member-info">
-                <h4>Tata Busana</h4>
-                <span>
-                  Jurusan Tata Busana mempelajari desain dan pembuatan busana. Lulusan bekerja di industri fashion.</span>
-                <p>
-                <div class="d-flex">
-                  <a href="tabus.php" class="btn-get-started" style="color: #003366;">Lihat Selengkapnya >></a>
-                </div>
-              </div>
-            </div>
-          </div><!-- End Team Member -->
-
+      <div class="card text-white bg-success mb-7" style="max-width: 700rem;">
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Keahlian</h2>
+          <div><span>Hadir Dengan Pilihan Kompetensi
+            </span> <span class="description-title">Keahlian</span></div>
         </div>
-      </div>
 
-      <div class="container" style="margin-top: 40px;">
-        <div class="row gy-5">
+        <div class="container">
+          <div class="row gy-5">
 
-          <!-- Team Member 4 -->
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="member">
-              <div class="pic">
-                <img src="assets/img/team/d.jpeg" class="img-fluid" alt="" style="width: 100%; height: 500px; object-fit: cover;">
-              </div>
-              <div class="member-info">
-                <h4>Desain Komunikasi Visual</h4>
-                <span>Jurusan Desain Komunikasi Visual fokus pada pembuatan desain grafis untuk menyampaikan pesan.</span>
-                <p>
-                <div class="d-flex">
-                  <a href="dkv.php" class="btn-get-started" style="color: #003366;">Lihat Selengkapnya >></a>
+            <!-- Team Member 1 -->
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+              <div class="member">
+                <div class="pic">
+                  <img src="assets/img/team/a.jpeg" class="img-fluid" alt="" style="width: 100%; height: 500px; object-fit: cover;">
+                </div>
+                <div class="member-info">
+                  <h4>Rekayasa Perangkat Lunak (RPL)</h4>
+                  <span>Rekayasa Perangkat Lunak (RPL) adalah jurusan yang fokus pada pengembangan perangkat lunak</span>
+                  <p>
+                  <div class="d-flex">
+                    <a href="rpl.php" class="btn-get-started" style="color: #003366;">Lihat Selengkapnya >></a>
+                  </div>
                 </div>
               </div>
-            </div>
+            </div><!-- End Team Member -->
+
+            <!-- Team Member 2 -->
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+              <div class="member">
+                <div class="pic">
+                  <img src="assets/img/team/b.jpeg" class="img-fluid" alt="" style="width: 100%; height: 500px; object-fit: cover;">
+                </div>
+                <div class="member-info">
+                  <h4>Layanan Kesehatan</h4>
+                  <span>Jurusan Layanan Kesehatan fokus pada manajemen dan perawatan medis di fasilitas kesehatan.</span>
+                  <p>
+                  <div class="d-flex">
+                    <a href="lk.php" class="btn-get-started" style="color: #003366;">Lihat Selengkapnya >></a>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End Team Member -->
+
+            <!-- Team Member 3 -->
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+              <div class="member">
+                <div class="pic">
+                  <img src="assets/img/team/c.jpeg" class="img-fluid" alt="" style="width: 100%; height: 500px; object-fit: cover;">
+                </div>
+                <div class="member-info">
+                  <h4>Tata Busana</h4>
+                  <span>
+                    Jurusan Tata Busana mempelajari desain dan pembuatan busana. Lulusan bekerja di industri fashion.</span>
+                  <p>
+                  <div class="d-flex">
+                    <a href="tabus.php" class="btn-get-started" style="color: #003366;">Lihat Selengkapnya >></a>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End Team Member -->
+
           </div>
-          <!-- End Team Member -->
-
-          <!-- Team Member 5 -->
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="member">
-              <div class="pic">
-                <img src="assets/img/team/a.jpeg" class="img-fluid" alt="" style="width: 100%; height: 500px; object-fit: cover;">
-              </div>
-              <div class="member-info">
-                <h4>Teknik Bodi Otomotif</h4>
-                <span>Jurusan Teknik Bodi Otomotif mempelajari perbaikan dan pembuatan bodi kendaraan.</span>
-                <p>
-                <div class="d-flex">
-                  <a href="tbo.php" class="btn-get-started" style="color: #003366;">Lihat Selengkapnya >></a>
-                </div>
-              </div>
-            </div>
-          </div><!-- End Team Member -->
-
-          <!-- Team Member 6 -->
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="member">
-              <div class="pic">
-                <img src="assets/img/team/b.jpeg" class="img-fluid" alt="" style="width: 100%; height: 500px; object-fit: cover;">
-              </div>
-              <div class="member-info">
-                <h4>Samsung Tech Institute</h4>
-                <span>
-                  Samsung Tech Institute adalah pelatihan teknologi untuk karir di Samsung.</span>
-                <p>
-                <div class="d-flex">
-                  <a href="sti.php" class="btn-get-started" style="color: #003366;">Lihat Selengkapnya >></a>
-                </div>
-              </div>
-            </div>
-          </div><!-- End Team Member -->
-
         </div>
+
+        <div class="container" style="margin-top: 40px;">
+          <div class="row gy-5">
+
+            <!-- Team Member 4 -->
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+              <div class="member">
+                <div class="pic">
+                  <img src="assets/img/team/d.jpeg" class="img-fluid" alt="" style="width: 100%; height: 500px; object-fit: cover;">
+                </div>
+                <div class="member-info">
+                  <h4>Desain Komunikasi Visual</h4>
+                  <span>Jurusan Desain Komunikasi Visual fokus pada pembuatan desain grafis untuk menyampaikan pesan.</span>
+                  <p>
+                  <div class="d-flex">
+                    <a href="dkv.php" class="btn-get-started" style="color: #003366;">Lihat Selengkapnya >></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End Team Member -->
+
+            <!-- Team Member 5 -->
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+              <div class="member">
+                <div class="pic">
+                  <img src="assets/img/team/a.jpeg" class="img-fluid" alt="" style="width: 100%; height: 500px; object-fit: cover;">
+                </div>
+                <div class="member-info">
+                  <h4>Teknik Bodi Otomotif</h4>
+                  <span>Jurusan Teknik Bodi Otomotif mempelajari perbaikan dan pembuatan bodi kendaraan.</span>
+                  <p>
+                  <div class="d-flex">
+                    <a href="tbo.php" class="btn-get-started" style="color: #003366;">Lihat Selengkapnya >></a>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End Team Member -->
+
+            <!-- Team Member 6 -->
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+              <div class="member">
+                <div class="pic">
+                  <img src="assets/img/team/b.jpeg" class="img-fluid" alt="" style="width: 100%; height: 500px; object-fit: cover;">
+                </div>
+                <div class="member-info">
+                  <h4>Samsung Tech Institute</h4>
+                  <span>
+                    Samsung Tech Institute adalah pelatihan teknologi untuk karir di Samsung.</span>
+                  <p>
+                  <div class="d-flex">
+                    <a href="sti.php" class="btn-get-started" style="color: #003366;">Lihat Selengkapnya >></a>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End Team Member -->
+
+          </div>
+        </div>
+
       </div>
     </section>
 
@@ -197,287 +202,289 @@ include('./layouts/nav.php');
 
     <!-- Details Section -->
     <section id="details" class="details section">
-      <div class="container">
-        <div class="row gy-4 align-items-center features-item">
-          <div class="col-md-5 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
-            <img src="assets/img/p1.png" width="500px" height="auto" class=" animated" alt="">
-          </div>
-          <div class="col-md-7" data-aos="fade-up" data-aos-delay="100">
-            <h3>Alasan mengapa Anda harus mempertimbangkan untuk masuk ke SMK Bina Cendekia Cirebon:</h3>
-            <p>
-            <ul>
-              <li style="display: flex; align-items: center; margin: 10px 0; padding: 10px; background-color: #fff; border-radius: 5px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);"><i class="bi bi-check"></i><span> Menggunakan kurikulum yang relevan dengan kebutuhan industri dan perkembangan teknologi.</span></li>
-              <li style="display: flex; align-items: center; margin: 10px 0; padding: 10px; background-color: #fff; border-radius: 5px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);"><i class="bi bi-check"></i> <span> Guru yang berpengalaman di bidangnya.</span></li>
-              <li style="display: flex; align-items: center; margin: 10px 0; padding: 10px; background-color: #fff; border-radius: 5px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);"><i class="bi bi-check"></i> <span> Dilengkapi dengan ruang kelas yang nyaman dan laboratorium modern.</span></li>
-              <li style="display: flex; align-items: center; margin: 10px 0; padding: 10px; background-color: #fff; border-radius: 5px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);"><i class="bi bi-check"></i><span> Memiliki kerjasama dengan perusahaan untuk pengalaman kerja nyata.</span></li>
-              <li style="display: flex; align-items: center; margin: 10px 0; padding: 10px; background-color: #fff; border-radius: 5px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);"><i class="bi bi-check"></i> <span> Menyediakan berbagai jurusan yang siap memasuki dunia kerja.</span></li>
-              <li style="display: flex; align-items: center; margin: 10px 0; padding: 10px; background-color: #fff; border-radius: 5px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);"><i class="bi bi-check"></i> <span> Fokus pada pengembangan keterampilan interpersonal dan profesional.</span></li>
-              <li style="display: flex; align-items: center; margin: 10px 0; padding: 10px; background-color: #fff; border-radius: 5px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);"><i class="bi bi-check"></i> <span> Memiliki akreditasi yang menunjukkan kualitas pendidikan yang tinggi.</span></li>
-              <li style="display: flex; align-items: center; margin: 10px 0; padding: 10px; background-color: #fff; border-radius: 5px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);"><i class="bi bi-check"></i><span> Beragam kegiatan ekstrakurikuler yang mendukung pengembangan minat dan bakat.</span></li>
-            </ul>
+      <div class="card text-white bg-success mb-7" style="max-width: 700rem;">
+        <div class="container">
+          <div class="row gy-4 align-items-center features-item">
+            <div class="col-md-5 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
+              <img src="assets/img/p1.png" width="500px" height="auto" class=" animated" alt="">
+            </div>
+            <div class="col-md-7" data-aos="fade-up" data-aos-delay="100">
+              <h3>Alasan mengapa Anda harus mempertimbangkan untuk masuk ke SMK Bina Cendekia Cirebon:</h3>
+              <p>
+              <ul>
+                <li style="display: flex; align-items: center; margin: 10px 0; padding: 10px; background-color: #fff; border-radius: 5px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);"><i class="bi bi-check"></i><span> Menggunakan kurikulum yang relevan dengan kebutuhan industri dan perkembangan teknologi.</span></li>
+                <li style="display: flex; align-items: center; margin: 10px 0; padding: 10px; background-color: #fff; border-radius: 5px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);"><i class="bi bi-check"></i> <span> Guru yang berpengalaman di bidangnya.</span></li>
+                <li style="display: flex; align-items: center; margin: 10px 0; padding: 10px; background-color: #fff; border-radius: 5px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);"><i class="bi bi-check"></i> <span> Dilengkapi dengan ruang kelas yang nyaman dan laboratorium modern.</span></li>
+                <li style="display: flex; align-items: center; margin: 10px 0; padding: 10px; background-color: #fff; border-radius: 5px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);"><i class="bi bi-check"></i><span> Memiliki kerjasama dengan perusahaan untuk pengalaman kerja nyata.</span></li>
+                <li style="display: flex; align-items: center; margin: 10px 0; padding: 10px; background-color: #fff; border-radius: 5px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);"><i class="bi bi-check"></i> <span> Menyediakan berbagai jurusan yang siap memasuki dunia kerja.</span></li>
+                <li style="display: flex; align-items: center; margin: 10px 0; padding: 10px; background-color: #fff; border-radius: 5px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);"><i class="bi bi-check"></i> <span> Fokus pada pengembangan keterampilan interpersonal dan profesional.</span></li>
+                <li style="display: flex; align-items: center; margin: 10px 0; padding: 10px; background-color: #fff; border-radius: 5px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);"><i class="bi bi-check"></i> <span> Memiliki akreditasi yang menunjukkan kualitas pendidikan yang tinggi.</span></li>
+                <li style="display: flex; align-items: center; margin: 10px 0; padding: 10px; background-color: #fff; border-radius: 5px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);"><i class="bi bi-check"></i><span> Beragam kegiatan ekstrakurikuler yang mendukung pengembangan minat dan bakat.</span></li>
+              </ul>
 
+            </div>
           </div>
+
         </div>
-
       </div>
-
     </section>
     <!-- End Details Section -->
 
     <!-- Gallery Section -->
     <section id="gallery" class="gallery section">
+      <div class="card text-white bg-success mb-7" style="max-width: 700rem;">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Fasilitas</h2>
+          <div><span>Fasilitas</span> <span class="description-title">di SMK Bina Cendekia Cirebon</span></div>
+        </div><!-- End Section Title -->
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Fasilitas</h2>
-        <div><span>Fasilitas</span> <span class="description-title">di SMK Bina Cendekia Cirebon</span></div>
-      </div><!-- End Section Title -->
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="row g-0">
 
-        <div class="row g-0">
-
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item">
-              <a href="assets/img/gallery/rpl.jpeg" class="glightbox" data-gallery="images-gallery">
-                <img src="assets/img/gallery/rpl.jpeg" class="img-fluid" alt="" style="width: 110%; height: 240px; object-fit: cover;">
-              </a>
-              <div class="caption" style="text-align: center; padding: 5px; background-color: rgba(0, 0, 0, 0.5); color: white; font-size: 12px;">
-                Fasilitas RPL
+            <div class="col-lg-3 col-md-4">
+              <div class="gallery-item">
+                <a href="assets/img/gallery/rpl.jpeg" class="glightbox" data-gallery="images-gallery">
+                  <img src="assets/img/gallery/rpl.jpeg" class="img-fluid" alt="" style="width: 110%; height: 240px; object-fit: cover;">
+                </a>
+                <div class="caption" style="text-align: center; padding: 5px; background-color: rgba(0, 0, 0, 0.5); color: white; font-size: 12px;">
+                  Fasilitas RPL
+                </div>
               </div>
-            </div>
-          </div><!-- End Gallery Item -->
+            </div><!-- End Gallery Item -->
 
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item">
-              <a href="assets/img/gallery/lk.jpeg" class="glightbox" data-gallery="images-gallery">
-                <img src="assets/img/gallery/lk.jpeg" class="img-fluid" alt="" style="width: 110%; height: 240px; object-fit: cover;">
-              </a>
-              <div class="caption" style="text-align: center; padding: 5px; background-color: rgba(0, 0, 0, 0.5); color: white; font-size: 12px;">
-                Fasilitas LK
+            <div class="col-lg-3 col-md-4">
+              <div class="gallery-item">
+                <a href="assets/img/gallery/lk.jpeg" class="glightbox" data-gallery="images-gallery">
+                  <img src="assets/img/gallery/lk.jpeg" class="img-fluid" alt="" style="width: 110%; height: 240px; object-fit: cover;">
+                </a>
+                <div class="caption" style="text-align: center; padding: 5px; background-color: rgba(0, 0, 0, 0.5); color: white; font-size: 12px;">
+                  Fasilitas LK
+                </div>
               </div>
-            </div>
-          </div><!-- End Gallery Item -->
+            </div><!-- End Gallery Item -->
 
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item">
-              <a href="assets/img/gallery/tbo.jpeg" class="glightbox" data-gallery="images-gallery">
-                <img src="assets/img/gallery/tbo.jpeg" class="img-fluid" alt="" style="width: 110%; height: 240px; object-fit: cover;">
-              </a>
-              <div class="caption" style="text-align: center; padding: 5px; background-color: rgba(0, 0, 0, 0.5); color: white; font-size: 12px;">
-                Fasilitas TBO
+            <div class="col-lg-3 col-md-4">
+              <div class="gallery-item">
+                <a href="assets/img/gallery/tbo.jpeg" class="glightbox" data-gallery="images-gallery">
+                  <img src="assets/img/gallery/tbo.jpeg" class="img-fluid" alt="" style="width: 110%; height: 240px; object-fit: cover;">
+                </a>
+                <div class="caption" style="text-align: center; padding: 5px; background-color: rgba(0, 0, 0, 0.5); color: white; font-size: 12px;">
+                  Fasilitas TBO
+                </div>
               </div>
-            </div>
-          </div><!-- End Gallery Item -->
+            </div><!-- End Gallery Item -->
 
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item">
-              <a href="assets/img/gallery/tabus.jpeg" class="glightbox" data-gallery="images-gallery">
-                <img src="assets/img/gallery/tabus.jpeg" class="img-fluid" alt="" style="width: 110%; height: 240px; object-fit: cover;">
-              </a>
-              <div class="caption" style="text-align: center; padding: 5px; background-color: rgba(0, 0, 0, 0.5); color: white; font-size: 12px;">
-                Fasilitas Tabus
+            <div class="col-lg-3 col-md-4">
+              <div class="gallery-item">
+                <a href="assets/img/gallery/tabus.jpeg" class="glightbox" data-gallery="images-gallery">
+                  <img src="assets/img/gallery/tabus.jpeg" class="img-fluid" alt="" style="width: 110%; height: 240px; object-fit: cover;">
+                </a>
+                <div class="caption" style="text-align: center; padding: 5px; background-color: rgba(0, 0, 0, 0.5); color: white; font-size: 12px;">
+                  Fasilitas Tabus
+                </div>
               </div>
-            </div>
-          </div><!-- End Gallery Item -->
+            </div><!-- End Gallery Item -->
 
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item">
-              <a href="assets/img/gallery/sti.jpeg" class="glightbox" data-gallery="images-gallery">
-                <img src="assets/img/gallery/sti.jpeg" class="img-fluid" alt="" style="width: 110%; height: 240px; object-fit: cover;">
-              </a>
-              <div class="caption" style="text-align: center; padding: 5px; background-color: rgba(0, 0, 0, 0.5); color: white; font-size: 12px;">
-                Fasilitas STI
+            <div class="col-lg-3 col-md-4">
+              <div class="gallery-item">
+                <a href="assets/img/gallery/sti.jpeg" class="glightbox" data-gallery="images-gallery">
+                  <img src="assets/img/gallery/sti.jpeg" class="img-fluid" alt="" style="width: 110%; height: 240px; object-fit: cover;">
+                </a>
+                <div class="caption" style="text-align: center; padding: 5px; background-color: rgba(0, 0, 0, 0.5); color: white; font-size: 12px;">
+                  Fasilitas STI
+                </div>
               </div>
-            </div>
-          </div><!-- End Gallery Item -->
+            </div><!-- End Gallery Item -->
 
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item">
-              <a href="assets/img/gallery/perpus.jpeg" class="glightbox" data-gallery="images-gallery">
-                <img src="assets/img/gallery/perpus.jpeg" class="img-fluid" alt="" style="width: 110%; height: 240px; object-fit: cover;">
-              </a>
-              <div class="caption" style="text-align: center; padding: 5px; background-color: rgba(0, 0, 0, 0.5); color: white; font-size: 12px;">
-                Fasilitas Perpustakaan
+            <div class="col-lg-3 col-md-4">
+              <div class="gallery-item">
+                <a href="assets/img/gallery/perpus.jpeg" class="glightbox" data-gallery="images-gallery">
+                  <img src="assets/img/gallery/perpus.jpeg" class="img-fluid" alt="" style="width: 110%; height: 240px; object-fit: cover;">
+                </a>
+                <div class="caption" style="text-align: center; padding: 5px; background-color: rgba(0, 0, 0, 0.5); color: white; font-size: 12px;">
+                  Fasilitas Perpustakaan
+                </div>
               </div>
-            </div>
-          </div><!-- End Gallery Item -->
+            </div><!-- End Gallery Item -->
 
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item">
-              <a href="assets/img/gallery/toilet.jpg" class="glightbox" data-gallery="images-gallery">
-                <img src="assets/img/gallery/toilet.jpg" class="img-fluid" alt="" style="width: 110%; height: 240px; object-fit: cover;">
-              </a>
-              <div class="caption" style="text-align: center; padding: 5px; background-color: rgba(0, 0, 0, 0.5); color: white; font-size: 12px;">
-                Fasilitas Toilet
+            <div class="col-lg-3 col-md-4">
+              <div class="gallery-item">
+                <a href="assets/img/gallery/toilet.jpg" class="glightbox" data-gallery="images-gallery">
+                  <img src="assets/img/gallery/toilet.jpg" class="img-fluid" alt="" style="width: 110%; height: 240px; object-fit: cover;">
+                </a>
+                <div class="caption" style="text-align: center; padding: 5px; background-color: rgba(0, 0, 0, 0.5); color: white; font-size: 12px;">
+                  Fasilitas Toilet
+                </div>
               </div>
-            </div>
-          </div><!-- End Gallery Item -->
+            </div><!-- End Gallery Item -->
 
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item">
-              <a href="assets/img/gallery/rpl.jpeg" class="glightbox" data-gallery="images-gallery">
-                <img src="assets/img/gallery/rpl.jpeg" class="img-fluid" alt="" style="width: 110%; height: 240px; object-fit: cover;">
-              </a>
-              <div class="caption" style="text-align: center; padding: 5px; background-color: rgba(0, 0, 0, 0.5); color: white; font-size: 12px;">
-                Fasilitas RPL
+            <div class="col-lg-3 col-md-4">
+              <div class="gallery-item">
+                <a href="assets/img/gallery/rpl.jpeg" class="glightbox" data-gallery="images-gallery">
+                  <img src="assets/img/gallery/rpl.jpeg" class="img-fluid" alt="" style="width: 110%; height: 240px; object-fit: cover;">
+                </a>
+                <div class="caption" style="text-align: center; padding: 5px; background-color: rgba(0, 0, 0, 0.5); color: white; font-size: 12px;">
+                  Fasilitas RPL
+                </div>
               </div>
-            </div>
-          </div><!-- End Gallery Item -->
+            </div><!-- End Gallery Item -->
+
+          </div>
 
         </div>
 
       </div>
-
     </section>
 
     <!--Gallery Section -->
 
     <!-- Team Section -->
     <section id="team" class="team section">
+      <div class="card text-white bg-success mb-7" style="max-width: 700rem;">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Team</h2>
+          <div><span>Check Our</span> <span class="description-title">Team</span></div>
+        </div><!-- End Section Title -->
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Team</h2>
-        <div><span>Check Our</span> <span class="description-title">Team</span></div>
-      </div><!-- End Section Title -->
+        <div class="container">
 
-      <div class="container">
+          <div class="row gy-5">
 
-        <div class="row gy-5">
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="member">
-              <div class="pic"><img src="assets/img/team/team-1.jpg" class="img-fluid" alt=""></div>
-              <div class="member-info">
-                <h4>Walter White</h4>
-                <span>Chief Executive Officer</span>
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter-x"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+              <div class="member">
+                <div class="pic"><img src="assets/img/team/team-1.jpg" class="img-fluid" alt=""></div>
+                <div class="member-info">
+                  <h4>Walter White</h4>
+                  <span>Chief Executive Officer</span>
+                  <div class="social">
+                    <a href=""><i class="bi bi-twitter-x"></i></a>
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div>
                 </div>
               </div>
-            </div>
-          </div><!-- End Team Member -->
+            </div><!-- End Team Member -->
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="member">
-              <div class="pic"><img src="assets/img/team/team-2.jpg" class="img-fluid" alt=""></div>
-              <div class="member-info">
-                <h4>Sarah Jhonson</h4>
-                <span>Product Manager</span>
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter-x"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+              <div class="member">
+                <div class="pic"><img src="assets/img/team/team-2.jpg" class="img-fluid" alt=""></div>
+                <div class="member-info">
+                  <h4>Sarah Jhonson</h4>
+                  <span>Product Manager</span>
+                  <div class="social">
+                    <a href=""><i class="bi bi-twitter-x"></i></a>
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div>
                 </div>
               </div>
-            </div>
-          </div><!-- End Team Member -->
+            </div><!-- End Team Member -->
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="member">
-              <div class="pic"><img src="assets/img/team/team-3.jpg" class="img-fluid" alt=""></div>
-              <div class="member-info">
-                <h4>William Anderson</h4>
-                <span>CTO</span>
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter-x"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+              <div class="member">
+                <div class="pic"><img src="assets/img/team/team-3.jpg" class="img-fluid" alt=""></div>
+                <div class="member-info">
+                  <h4>William Anderson</h4>
+                  <span>CTO</span>
+                  <div class="social">
+                    <a href=""><i class="bi bi-twitter-x"></i></a>
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div>
                 </div>
               </div>
-            </div>
-          </div><!-- End Team Member -->
+            </div><!-- End Team Member -->
+
+          </div>
 
         </div>
-
       </div>
-
     </section>
     <!-- /Team Section -->
 
 
     <!-- Contact Section -->
     <section id="contact" class="contact section">
+      <div class="card text-white bg-success mb-7" style="max-width: 700rem;">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Contact</h2>
+          <div><span>Check Our</span> <span class="description-title">Contact</span></div>
+        </div><!-- End Section Title -->
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Contact</h2>
-        <div><span>Check Our</span> <span class="description-title">Contact</span></div>
-      </div><!-- End Section Title -->
+        <div class="container" data-aos="fade" data-aos-delay="100">
 
-      <div class="container" data-aos="fade" data-aos-delay="100">
+          <div class="row gy-4">
 
-        <div class="row gy-4">
+            <div class="col-lg-4">
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                <div>
+                  <h3>Address</h3>
+                  <p>A108 Adam Street, New York, NY 535022</p>
+                </div>
+              </div><!-- End Info Item -->
 
-          <div class="col-lg-4">
-            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
-              <i class="bi bi-geo-alt flex-shrink-0"></i>
-              <div>
-                <h3>Address</h3>
-                <p>A108 Adam Street, New York, NY 535022</p>
-              </div>
-            </div><!-- End Info Item -->
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+                <i class="bi bi-telephone flex-shrink-0"></i>
+                <div>
+                  <h3>Call Us</h3>
+                  <p>+1 5589 55488 55</p>
+                </div>
+              </div><!-- End Info Item -->
 
-            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
-              <i class="bi bi-telephone flex-shrink-0"></i>
-              <div>
-                <h3>Call Us</h3>
-                <p>+1 5589 55488 55</p>
-              </div>
-            </div><!-- End Info Item -->
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+                <i class="bi bi-envelope flex-shrink-0"></i>
+                <div>
+                  <h3>Email Us</h3>
+                  <p>info@example.com</p>
+                </div>
+              </div><!-- End Info Item -->
 
-            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
-              <i class="bi bi-envelope flex-shrink-0"></i>
-              <div>
-                <h3>Email Us</h3>
-                <p>info@example.com</p>
-              </div>
-            </div><!-- End Info Item -->
+            </div>
+
+            <div class="col-lg-8">
+              <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+                <div class="row gy-4">
+
+                  <div class="col-md-6">
+                    <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+                  </div>
+
+                  <div class="col-md-6 ">
+                    <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+                  </div>
+
+                  <div class="col-md-12">
+                    <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+                  </div>
+
+                  <div class="col-md-12">
+                    <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+                  </div>
+
+                  <div class="col-md-12 text-center">
+                    <div class="loading">Loading</div>
+                    <div class="error-message"></div>
+                    <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                    <button type="submit">Send Message</button>
+                  </div>
+
+                </div>
+              </form>
+            </div><!-- End Contact Form -->
 
           </div>
 
-          <div class="col-lg-8">
-            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
-              <div class="row gy-4">
-
-                <div class="col-md-6">
-                  <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
-                </div>
-
-                <div class="col-md-6 ">
-                  <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
-                </div>
-
-                <div class="col-md-12">
-                  <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
-                </div>
-
-                <div class="col-md-12">
-                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
-                </div>
-
-                <div class="col-md-12 text-center">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
-
-                  <button type="submit">Send Message</button>
-                </div>
-
-              </div>
-            </form>
-          </div><!-- End Contact Form -->
-
         </div>
-
       </div>
-
     </section>
     <!-- /Contact Section -->
   </main>

@@ -4,21 +4,9 @@ include ('./layouts/header.php');
 
 <body class="index-page">
 
-  <header id="header" class="header d-flex align-items-center fixed-top">
-    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
-
-      <a href="index.php" class="logo d-flex align-items-center">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="sitename">SMK BINA CENDEKIA </h1>
-      </a>
-
-      <nav id="navmenu" class="navmenu">  
-        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-      </nav>
-
-    </div>
-  </header>
+<?php
+include('./layouts/NAV.php');
+?>
 
   <main class="main">
 
