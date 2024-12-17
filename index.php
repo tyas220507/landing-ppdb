@@ -18,10 +18,10 @@ include ('./layouts/header.php');
     <nav id="navmenu" class="navmenu">
       <ul>
         <li><a href="#hero" class="active">Beranda</a></li>
-        <li><a href="#visi dan misi">Profil</a></li>
+        <li><a href="#visimisi">Profil</a></li>
         <li><a href="#features">Jurusan</a></li>
         <li><a href="#gallery">Fasilitas</a></li>
-        <li><a href="ppdb.php">PPDB</a></li>
+        <li><a href="ppdb.php">Info PPDB</a></li>
         <li><a href="#contact">Kontak</a></li>
       </ul>
       <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
@@ -35,7 +35,7 @@ include ('./layouts/header.php');
 
   <!-- Hero Section -->
   <section id="hero" class="hero section dark-background" style="min-height: 100vh; padding: 80px 0;">
-  <img src="assets/img/sekolah.jpg" alt="" class="hero-bg">
+  <img src="assets/img/school.jpg" alt="" class="hero-bg">
 
   <div class="container">
     <div class="row gy-8 justify-content-between">
@@ -45,10 +45,9 @@ include ('./layouts/header.php');
 
       <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-in">
         <h2>SMK Bina Cendekia Cirebon</h2>
-        <p>Menjadi Sekolah Menengah Kejuruan yang berkarakter Berbudaya, Berwawasan Lingkungan, 
-          menghasilkan insan yang bertaqwa, profesional, mampu berwirausaha dan berdaya saing Global.</p>
+        <p>Jadilah bagian dari SMK Bina Cendekia Cirebon, tempat di mana masa depanmu dimulai dengan pendidikan berkualitas, keterampilan nyata, dan peluang karir yang tak terbatas!.</p>
         <div class="d-flex">
-          <a href="daftar.php" class="btn-get-started">Daftar Sekarang >></a>
+          <a href="daftar.php" class="btn-get-started">Lihat Selengkapnya >></a>
         </div>
       </div>
     </div>
@@ -75,41 +74,13 @@ include ('./layouts/header.php');
   <div class="container">
     <div class="row gy-4 align-items-center">
       <div class="col-md-5 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
-        <img src="assets/img/details-1.png" class="img-fluid" alt="">
+      <img src="assets/img/bc.png" class="img-fluid" alt="" style="width: 75%%; height: 300px;">
       </div>
       <div class="col-md-7" data-aos="fade-up" data-aos-delay="100">
-        <h1><b>Visi, Misi dan Tujuan.</b></h1>
-        <p>
-          Menjadi Sekolah Menengah Kejuruan yang berkarakter Berbudaya, Berwawasan Lingkungan,
-          menghasilkan insan yang bertaqwa, profesional, mampu berwirausaha dan berdaya saing Global.
-        </p>
-        <ul class="list-unstyled">
-          <li class="d-flex align-items-start mb-3">
-            <i class="bi bi-1-circle" style="color: #5578ff; font-size: 24px; margin-right: 10px;"></i>
-            <span>Mengembangkan Kurikulum, metodologi pembelajaran dan sistem penilaian berbasis kompetensi yang berkarakter.</span>
-          </li>
-          <li class="d-flex align-items-start mb-3">
-            <i class="bi bi-2-circle" style="color: #5578ff; font-size: 24px; margin-right: 10px;"></i>
-            <span>Menyelenggarakan kegiatan Ekstrakurikuler agar peserta didik memiliki multi skills yang mampu mengembangkan kecakapan hidup (life skill) dan berakhlak mulia, kreatif, dan inovatif.</span>
-          </li>
-          <li class="d-flex align-items-start mb-3">
-            <i class="bi bi-3-circle" style="color: #5578ff; font-size: 24px; margin-right: 10px;"></i>
-            <span>Meningkatkan kualitas pendidik dan tenaga kependidikan yang memenuhi kualifikasi profesional, kreatif, inovatif, berkarakter dan berbudaya.</span>
-          </li>
-          <li class="d-flex align-items-start mb-3">
-            <i class="bi bi-4-circle" style="color: #5578ff; font-size: 24px; margin-right: 10px;"></i>
-            <span>Meningkatkan fasilitas dan lingkungan belajar aman, nyaman, memenuhi standar Nasional Pendidikan, Standar Kerja Industri, secara kualitas dan kuantitas.</span>
-          </li>
-          <li class="d-flex align-items-start mb-3">
-            <i class="bi bi-5-circle" style="color: #5578ff; font-size: 24px; margin-right: 10px;"></i>
-            <span>Membangun kemitraan (Link and Match) dengan lembaga yang relevan baik dalam maupun luar Negeri.</span>
-          </li>
-          <li class="d-flex align-items-start mb-3">
-            <i class="bi bi-5-circle" style="color: #5578ff; font-size: 24px; margin-right: 10px;"></i>
-            <span>Mengembangkan Sekolah unggulan berbasis literasi.</span>
-          </li>
-        </ul>
-      </div>
+        <h1><b>SMK Bina Cendekia Cirebon </b></h1>
+        <p>merupakan lembaga pendidikan yang berkomitmen untuk menghasilkan lulusan yang tidak hanya terampil, tetapi juga memiliki karakter yang baik. Dengan kurikulum yang berfokus pada pengembangan keterampilan praktis dan ilmu pengetahuan yang relevan dengan kebutuhan dunia industri, sekolah ini mempersiapkan siswa untuk siap menghadapi tantangan di dunia kerja. Fasilitas yang lengkap dan tenaga pengajar yang berkompeten mendukung setiap siswa untuk berkreasi dan mengasah kemampuan mereka, sehingga siap berkontribusi dalam pembangunan bangsa.</p>
+        <p>Di SMK Bina Cendekia Cirebon, siswa tidak hanya belajar, tetapi juga dilatih untuk menjadi profesional yang kompeten dan siap berkarya di berbagai bidang. Sekolah ini memberikan pendidikan yang berfokus pada keterampilan dan penguatan karakter, menjadikannya pilihan tepat bagi mereka yang ingin meniti karier masa depan. Dengan pendidikan yang menyeluruh, SMK Bina Cendekia Cirebon siap mencetak generasi muda yang siap menghadapi tantangan global dan memberikan kontribusi positif bagi masyarakat.</p>
+            </div>
     </div>
   </div>
 </section>
@@ -118,62 +89,58 @@ include ('./layouts/header.php');
 <!--jurusan-->   
 <section id="team" class="team section">
   <div class="container section-title" data-aos="fade-up">
-    <h2>Team</h2>
-    <div><span>Check Our</span> <span class="description-title">Team</span></div>
+    <h2>Keahlian</h2>
+    <div><span>Hadir Dengan Pilihan Kompetensi 
+    </span> <span class="description-title">Keahlian</span></div>
   </div>
 
   <div class="container">
     <div class="row gy-5">
 
+      <!-- Team Member 1 -->
       <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
         <div class="member">
           <div class="pic">
-            <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
+            <img src="assets/img/team/a.jpeg" class="img-fluid" alt="" style="width: 100%; height: 500px; object-fit: cover;">
           </div>
           <div class="member-info">
-            <h4>Walter White</h4>
-            <span>Chief Executive Officer</span>
-            <div class="social">
-              <a href=""><i class="bi bi-twitter-x"></i></a>
-              <a href=""><i class="bi bi-facebook"></i></a>
-              <a href=""><i class="bi bi-instagram"></i></a>
-              <a href=""><i class="bi bi-linkedin"></i></a>
+            <h4>Rekayasa Perangkat Lunak (RPL)</h4>
+            <span>Rekayasa Perangkat Lunak (RPL) adalah jurusan yang fokus pada pengembangan perangkat lunak</span><p>
+            <div class="d-flex">
+               <a href="rpl.php" class="btn-get-started" style="color: #003366;">Lihat Selengkapnya >></a>
             </div>
           </div>
         </div>
       </div><!-- End Team Member -->
 
+      <!-- Team Member 2 -->
       <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
         <div class="member">
           <div class="pic">
-            <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
+            <img src="assets/img/team/b.jpeg" class="img-fluid" alt="" style="width: 100%; height: 500px; object-fit: cover;">
           </div>
           <div class="member-info">
-            <h4>Sarah Jhonson</h4>
-            <span>Product Manager</span>
-            <div class="social">
-              <a href=""><i class="bi bi-twitter-x"></i></a>
-              <a href=""><i class="bi bi-facebook"></i></a>
-              <a href=""><i class="bi bi-instagram"></i></a>
-              <a href=""><i class="bi bi-linkedin"></i></a>
+            <h4>Layanan Kesehatan</h4>
+            <span>Jurusan Layanan Kesehatan fokus pada manajemen dan perawatan medis di fasilitas kesehatan.</span><p>
+            <div class="d-flex">
+               <a href="lk.php" class="btn-get-started" style="color: #003366;">Lihat Selengkapnya >></a>
             </div>
           </div>
         </div>
       </div><!-- End Team Member -->
 
+      <!-- Team Member 3 -->
       <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
         <div class="member">
           <div class="pic">
-            <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
+            <img src="assets/img/team/c.jpeg" class="img-fluid" alt="" style="width: 100%; height: 500px; object-fit: cover;">
           </div>
           <div class="member-info">
-            <h4>William Anderson</h4>
-            <span>CTO</span>
-            <div class="social">
-              <a href=""><i class="bi bi-twitter-x"></i></a>
-              <a href=""><i class="bi bi-facebook"></i></a>
-              <a href=""><i class="bi bi-instagram"></i></a>
-              <a href=""><i class="bi bi-linkedin"></i></a>
+            <h4>Tata Busana</h4>
+            <span>
+            Jurusan Tata Busana mempelajari desain dan pembuatan busana. Lulusan bekerja di industri fashion.</span><p>
+            <div class="d-flex">
+               <a href="tabus.php" class="btn-get-started" style="color: #003366;">Lihat Selengkapnya >></a>
             </div>
           </div>
         </div>
@@ -182,58 +149,54 @@ include ('./layouts/header.php');
     </div>
   </div>
 
-  <div class="container" style="margin-top: 40px;"> <!-- Add margin-top here to add space -->
+  <div class="container" style="margin-top: 40px;">
     <div class="row gy-5">
 
+      <!-- Team Member 4 -->
       <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-        <div class="member">
-          <div class="pic">
-            <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
-          </div>
-          <div class="member-info">
-            <h4>Walter White</h4>
-            <span>Chief Executive Officer</span>
-            <div class="social">
-              <a href=""><i class="bi bi-twitter-x"></i></a>
-              <a href=""><i class="bi bi-facebook"></i></a>
-              <a href=""><i class="bi bi-instagram"></i></a>
-              <a href=""><i class="bi bi-linkedin"></i></a>
-            </div>
-          </div>
+    <div class="member">
+        <div class="pic">
+            <img src="assets/img/team/d.jpeg" class="img-fluid" alt="" style="width: 100%; height: 500px; object-fit: cover;">
         </div>
-      </div><!-- End Team Member -->
+        <div class="member-info">
+            <h4>Desain Komunikasi Visual</h4>
+            <span>Jurusan Desain Komunikasi Visual fokus pada pembuatan desain grafis untuk menyampaikan pesan.</span><p>
+            <div class="d-flex">
+                <a href="dkv.php" class="btn-get-started" style="color: #003366;">Lihat Selengkapnya >></a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Team Member -->
 
+      <!-- Team Member 5 -->
       <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
         <div class="member">
           <div class="pic">
-            <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
+            <img src="assets/img/team/a.jpeg" class="img-fluid" alt="" style="width: 100%; height: 500px; object-fit: cover;">
           </div>
           <div class="member-info">
-            <h4>Sarah Jhonson</h4>
-            <span>Product Manager</span>
-            <div class="social">
-              <a href=""><i class="bi bi-twitter-x"></i></a>
-              <a href=""><i class="bi bi-facebook"></i></a>
-              <a href=""><i class="bi bi-instagram"></i></a>
-              <a href=""><i class="bi bi-linkedin"></i></a>
+            <h4>Teknik Bodi Otomotif</h4>
+            <span>Jurusan Teknik Bodi Otomotif mempelajari perbaikan dan pembuatan bodi kendaraan.</span><p>
+            <div class="d-flex">
+               <a href="tbo.php" class="btn-get-started" style="color: #003366;">Lihat Selengkapnya >></a>
             </div>
           </div>
         </div>
       </div><!-- End Team Member -->
 
+      <!-- Team Member 6 -->
       <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
         <div class="member">
           <div class="pic">
-            <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
+            <img src="assets/img/team/b.jpeg" class="img-fluid" alt="" style="width: 100%; height: 500px; object-fit: cover;">
           </div>
           <div class="member-info">
-            <h4>William Anderson</h4>
-            <span>CTO</span>
-            <div class="social">
-              <a href=""><i class="bi bi-twitter-x"></i></a>
-              <a href=""><i class="bi bi-facebook"></i></a>
-              <a href=""><i class="bi bi-instagram"></i></a>
-              <a href=""><i class="bi bi-linkedin"></i></a>
+            <h4>Samsung Tech Institute</h4>
+            <span>
+            Samsung Tech Institute adalah pelatihan teknologi untuk karir di Samsung.</span><p>
+            <div class="d-flex">
+               <a href="sti.php" class="btn-get-started" style="color: #003366;">Lihat Selengkapnya >></a>
             </div>
           </div>
         </div>
@@ -242,36 +205,33 @@ include ('./layouts/header.php');
     </div>
   </div>
 </section>
+
+
 <!--/jurusan-->
    
 
 
 <!-- Details Section -->
 <section id="details" class="details section">
-<div class="container section-title" data-aos="fade-up">
-  <h2>Details</h2>
-  <div>
-    <span>Check Our</span> <span class="description-title">Details</span>
-  </div>
-</div>
-
 <div class="container">
-
   <div class="row gy-4 align-items-center features-item">
     <div class="col-md-5 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
-      <img src="assets/img/details-1.png" class="img-fluid" alt="">
+    <img src="assets/img/p1.png" width="500px" height="auto" class=" animated" alt="">
     </div>
     <div class="col-md-7" data-aos="fade-up" data-aos-delay="100">
-      <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
-      <p class="fst-italic">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        magna aliqua.
-      </p>
+      <h3>Alasan mengapa Anda harus mempertimbangkan untuk masuk ke SMK Bina Cendekia Cirebon:</h3>
+      <p>
       <ul>
-        <li><i class="bi bi-check"></i><span> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
-        <li><i class="bi bi-check"></i> <span>Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
-        <li><i class="bi bi-check"></i> <span>Ullam est qui quos consequatur eos accusamus.</span></li>
-      </ul>
+    <li style="display: flex; align-items: center; margin: 10px 0; padding: 10px; background-color: #fff; border-radius: 5px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);"><i class="bi bi-check"></i><span> Menggunakan kurikulum yang relevan dengan kebutuhan industri dan perkembangan teknologi.</span></li>
+    <li style="display: flex; align-items: center; margin: 10px 0; padding: 10px; background-color: #fff; border-radius: 5px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);"><i class="bi bi-check"></i> <span> Guru yang berpengalaman di bidangnya.</span></li>
+    <li style="display: flex; align-items: center; margin: 10px 0; padding: 10px; background-color: #fff; border-radius: 5px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);"><i class="bi bi-check"></i> <span> Dilengkapi dengan ruang kelas yang nyaman dan laboratorium modern.</span></li>
+    <li style="display: flex; align-items: center; margin: 10px 0; padding: 10px; background-color: #fff; border-radius: 5px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);"><i class="bi bi-check"></i><span> Memiliki kerjasama dengan perusahaan untuk pengalaman kerja nyata.</span></li>
+    <li style="display: flex; align-items: center; margin: 10px 0; padding: 10px; background-color: #fff; border-radius: 5px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);"><i class="bi bi-check"></i> <span> Menyediakan berbagai jurusan yang siap memasuki dunia kerja.</span></li>
+    <li style="display: flex; align-items: center; margin: 10px 0; padding: 10px; background-color: #fff; border-radius: 5px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);"><i class="bi bi-check"></i> <span> Fokus pada pengembangan keterampilan interpersonal dan profesional.</span></li>
+    <li style="display: flex; align-items: center; margin: 10px 0; padding: 10px; background-color: #fff; border-radius: 5px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);"><i class="bi bi-check"></i> <span> Memiliki akreditasi yang menunjukkan kualitas pendidikan yang tinggi.</span></li>
+    <li style="display: flex; align-items: center; margin: 10px 0; padding: 10px; background-color: #fff; border-radius: 5px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);"><i class="bi bi-check"></i><span> Beragam kegiatan ekstrakurikuler yang mendukung pengembangan minat dan bakat.</span></li>
+</ul>
+
     </div>
   </div><!-- End Features Item -->
 
@@ -299,87 +259,112 @@ include ('./layouts/header.php');
 <!-- End Details Section -->
 
 <!-- Gallery Section -->
-    <section id="gallery" class="gallery section">
+<section id="gallery" class="gallery section">
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Fasilitas</h2>
-        <div><span>Fasilitas</span> <span class="description-title">di SMK Bina Cendekia Cirebon</span></div>
-      </div><!-- End Section Title -->
+<!-- Section Title -->
+<div class="container section-title" data-aos="fade-up">
+  <h2>Fasilitas</h2>
+  <div><span>Fasilitas</span> <span class="description-title">di SMK Bina Cendekia Cirebon</span></div>
+</div><!-- End Section Title -->
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
+<div class="container" data-aos="fade-up" data-aos-delay="100">
 
-        <div class="row g-0">
+  <div class="row g-0">
 
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item">
-              <a href="assets/img/gallery/gallery-1.jpg" class="glightbox" data-gallery="images-gallery">
-                <img src="assets/img/gallery/gallery-1.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div><!-- End Gallery Item -->
-
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item">
-              <a href="assets/img/gallery/gallery-2.jpg" class="glightbox" data-gallery="images-gallery">
-                <img src="assets/img/gallery/gallery-2.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div><!-- End Gallery Item -->
-
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item">
-              <a href="assets/img/gallery/gallery-3.jpg" class="glightbox" data-gallery="images-gallery">
-                <img src="assets/img/gallery/gallery-3.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div><!-- End Gallery Item -->
-
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item">
-              <a href="assets/img/gallery/gallery-4.jpg" class="glightbox" data-gallery="images-gallery">
-                <img src="assets/img/gallery/gallery-4.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div><!-- End Gallery Item -->
-
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item">
-              <a href="assets/img/gallery/gallery-5.jpg" class="glightbox" data-gallery="images-gallery">
-                <img src="assets/img/gallery/gallery-5.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div><!-- End Gallery Item -->
-
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item">
-              <a href="assets/img/gallery/gallery-6.jpg" class="glightbox" data-gallery="images-gallery">
-                <img src="assets/img/gallery/gallery-6.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div><!-- End Gallery Item -->
-
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item">
-              <a href="assets/img/gallery/gallery-7.jpg" class="glightbox" data-gallery="images-gallery">
-                <img src="assets/img/gallery/gallery-7.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div><!-- End Gallery Item -->
-
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item">
-              <a href="assets/img/gallery/gallery-8.jpg" class="glightbox" data-gallery="images-gallery">
-                <img src="assets/img/gallery/gallery-8.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div><!-- End Gallery Item -->
-
+    <div class="col-lg-3 col-md-4">
+      <div class="gallery-item">
+        <a href="assets/img/gallery/rpl.jpeg" class="glightbox" data-gallery="images-gallery">
+          <img src="assets/img/gallery/rpl.jpeg" class="img-fluid" alt="" style="width: 110%; height: 240px; object-fit: cover;">
+        </a>
+        <div class="caption" style="text-align: center; padding: 5px; background-color: rgba(0, 0, 0, 0.5); color: white; font-size: 12px;">
+          Fasilitas RPL
         </div>
-
       </div>
+    </div><!-- End Gallery Item -->
 
-    </section>
+    <div class="col-lg-3 col-md-4">
+      <div class="gallery-item">
+        <a href="assets/img/gallery/lk.jpeg" class="glightbox" data-gallery="images-gallery">
+          <img src="assets/img/gallery/lk.jpeg" class="img-fluid" alt="" style="width: 110%; height: 240px; object-fit: cover;">
+        </a>
+        <div class="caption" style="text-align: center; padding: 5px; background-color: rgba(0, 0, 0, 0.5); color: white; font-size: 12px;">
+          Fasilitas LK
+        </div>
+      </div>
+    </div><!-- End Gallery Item -->
+
+    <div class="col-lg-3 col-md-4">
+      <div class="gallery-item">
+        <a href="assets/img/gallery/tbo.jpeg" class="glightbox" data-gallery="images-gallery">
+          <img src="assets/img/gallery/tbo.jpeg" class="img-fluid" alt="" style="width: 110%; height: 240px; object-fit: cover;">
+        </a>
+        <div class="caption" style="text-align: center; padding: 5px; background-color: rgba(0, 0, 0, 0.5); color: white; font-size: 12px;">
+          Fasilitas TBO
+        </div>
+      </div>
+    </div><!-- End Gallery Item -->
+
+    <div class="col-lg-3 col-md-4">
+      <div class="gallery-item">
+        <a href="assets/img/gallery/tabus.jpeg" class="glightbox" data-gallery="images-gallery">
+          <img src="assets/img/gallery/tabus.jpeg" class="img-fluid" alt="" style="width: 110%; height: 240px; object-fit: cover;">
+        </a>
+        <div class="caption" style="text-align: center; padding: 5px; background-color: rgba(0, 0, 0, 0.5); color: white; font-size: 12px;">
+          Fasilitas Tabus
+        </div>
+      </div>
+    </div><!-- End Gallery Item -->
+
+    <div class="col-lg-3 col-md-4">
+      <div class="gallery-item">
+        <a href="assets/img/gallery/sti.jpeg" class="glightbox" data-gallery="images-gallery">
+          <img src="assets/img/gallery/sti.jpeg" class="img-fluid" alt="" style="width: 110%; height: 240px; object-fit: cover;">
+        </a>
+        <div class="caption" style="text-align: center; padding: 5px; background-color: rgba(0, 0, 0, 0.5); color: white; font-size: 12px;">
+          Fasilitas STI
+        </div>
+      </div>
+    </div><!-- End Gallery Item -->
+
+    <div class="col-lg-3 col-md-4">
+      <div class="gallery-item">
+        <a href="assets/img/gallery/perpus.jpeg" class="glightbox" data-gallery="images-gallery">
+          <img src="assets/img/gallery/perpus.jpeg" class="img-fluid" alt="" style="width: 110%; height: 240px; object-fit: cover;">
+        </a>
+        <div class="caption" style="text-align: center; padding: 5px; background-color: rgba(0, 0, 0, 0.5); color: white; font-size: 12px;">
+          Fasilitas Perpustakaan
+        </div>
+      </div>
+    </div><!-- End Gallery Item -->
+
+    <div class="col-lg-3 col-md-4">
+      <div class="gallery-item">
+        <a href="assets/img/gallery/toilet.jpg" class="glightbox" data-gallery="images-gallery">
+          <img src="assets/img/gallery/toilet.jpg" class="img-fluid" alt="" style="width: 110%; height: 240px; object-fit: cover;">
+        </a>
+        <div class="caption" style="text-align: center; padding: 5px; background-color: rgba(0, 0, 0, 0.5); color: white; font-size: 12px;">
+          Fasilitas Toilet
+        </div>
+      </div>
+    </div><!-- End Gallery Item -->
+
+    <div class="col-lg-3 col-md-4">
+      <div class="gallery-item">
+        <a href="assets/img/gallery/rpl.jpeg" class="glightbox" data-gallery="images-gallery">
+          <img src="assets/img/gallery/rpl.jpeg" class="img-fluid" alt="" style="width: 110%; height: 240px; object-fit: cover;">
+        </a>
+        <div class="caption" style="text-align: center; padding: 5px; background-color: rgba(0, 0, 0, 0.5); color: white; font-size: 12px;">
+          Fasilitas RPL
+        </div>
+      </div>
+    </div><!-- End Gallery Item -->
+
+  </div>
+
+</div>
+
+</section>
+
 <!-- /Gallery Section -->
 
 <!-- Team Section -->
