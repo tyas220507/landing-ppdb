@@ -1,107 +1,53 @@
 <?php
-include('./layouts/header.php');
+include ('./layouts/header.php');
 ?>
 
 <body class="index-page">
 
-  <header id="header" class="header d-flex align-items-center fixed-top">
-    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+<?php
+include('./layouts/nav.php');
+?>
 
-      <a href="index.html" class="logo d-flex align-items-center">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="sitename">SMK BINA CENDEKIA </h1>
-      </a>
-
-      <nav id="navmenu" class="navmenu">
-        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-      </nav>
-
-    </div>
-  </header>
 
   <main class="main">
 
-    <!-- Hero Section -->
-    <section id="hero" class="hero section dark-background">
-      <img src="assets/img/hero-bg-2.jpg" alt="" class="hero-bg">
+  <!-- Hero Section -->
+  <section id="hero" class="hero section dark-background" style="min-height: 100vh; padding: 80px 0;">
+  <img src="assets/img/school.jpg" alt="" class="hero-bg">
 
-      <div class="container">
-        <div class="row gy-4 justify-content-between">
-          <div class="col-lg-4 order-lg-last hero-img" data-aos="zoom-out" data-aos-delay="100">
-            <img src="assets/img/hero-img.png" class="img-fluid animated" alt="">
-          </div>
-
-          <div class="col-lg-6  d-flex flex-column justify-content-center" data-aos="fade-in">
-            <h2>SELAMAT DATANG DI PPDB SMK BINA CENDEKIA 2025/2026</h2>
-            <p>Menjadi Sekolah Menengah Kejuruan yang berkarakter Berbudaya, Berwawasan Lingkungan, menghasilkan insan yang bertaqwa, profesional, mampu berwirausaha dan berdaya saing Global.</p>
-          </div>
-
-        </div>
+  <div class="container">
+    <div class="row gy-8 justify-content-between">
+      <div class="col-lg-5 order-lg-last hero-img" data-aos="zoom-out" data-aos-delay="100">
+        <img src="assets/img/p1.png" width="600px" height="auto" class=" animated" alt="">
       </div>
 
-      <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none">
-        <defs>
-          <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"></path>
-        </defs>
-        <g class="wave1">
-          <use xlink:href="#wave-path" x="50" y="3"></use>
-        </g>
-        <g class="wave2">
-          <use xlink:href="#wave-path" x="50" y="0"></use>
-        </g>
-        <g class="wave3">
-          <use xlink:href="#wave-path" x="50" y="9"></use>
-        </g>
-      </svg>
-
-    </section><!-- /Hero Section -->
-
-
-    <!-- Features Section -->
-    <section id="features" class="features section">
-
-      <div class="container">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="100">
-            <div class="features-item">
-              <i class="bi bi-buildings" style="color: #ffbb2c;"></i>
-              <h3><a href="" class="stretched-link">Info PPDB</a></h3>
-            </div>
-          </div><!-- End Feature Item -->
-
-          <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="200">
-            <div class="features-item">
-              <i class="bi bi-file-text" style="color: #5578ff;"></i>
-              <h3><a href="asal_sekolah.php" class="stretched-link">Daftar</a></h3>
-            </div>
-          </div><!-- End Feature Item -->
-          <p>
-          <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="300">
-            <div class="features-item">
-              <i class="bi bi-mortarboard" style="color: #e80368;"></i>
-              <h3><a href="" class="stretched-link">Info Gelombang 1</a></h3>
-            </div>
-          </div><!-- End Feature Item -->
-
-          <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="400">
-            <div class="features-item">
-              <i class="bi bi-mortarboard" style="color: #11dbcf;"></i>
-              <h3><a href="" class="stretched-link">Info Gelombang 2</a></h3>
-            </div>
-          </div><!-- End Feature Item -->
-
-
+      <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-in">
+        <h2>SMK Bina Cendekia Cirebon</h2>
+        <p>Jadilah bagian dari SMK Bina Cendekia Cirebon, tempat di mana masa depanmu dimulai dengan pendidikan berkualitas, keterampilan nyata, dan peluang karir yang tak terbatas!.</p>
+        <div class="d-flex">
+          <a href="daftar.php" class="btn-get-started">Lihat Selengkapnya >></a>
         </div>
-
       </div>
+    </div>
+  </div>
 
-    </section><!-- /Features Section -->
-  </main>
+  <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none">
+    <defs>
+      <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"></path>
+    </defs>
+    <g class="wave1">
+      <use xlink:href="#wave-path" x="50" y="3"></use>
+    </g>
+    <g class="wave2">
+      <use xlink:href="#wave-path" x="50" y="0"></use>
+    </g>
+    <g class="wave3">
+      <use xlink:href="#wave-path" x="50" y="9"></use>
+    </g>
+  </svg>
+</section>
 
-  <footer id="footer" class="footer dark-background">
+<footer id="footer" class="footer dark-background">
 
     <div class="container footer-top">
       <div class="row gy-4">

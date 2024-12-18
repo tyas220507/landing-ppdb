@@ -4,25 +4,9 @@ include ('./layouts/header.php');
 
 <body class="index-page">
 
-<header id="header" class="header d-flex align-items-center fixed-top">
-  <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
-    
-    <a href="index.html" class="logo d-flex align-items-center">
-      <!-- Add the logo image before the text -->
-      <img src="assets/img/bc.png" alt="Logo" style="max-height: 50px; margin-right: 10px;"> <!-- Logo image -->
-      
-      <!-- Text "SMK Bina Cendekia" -->
-      <h1 class="sitename">SMK Bina Cendekia</h1>
-    </a>
-
-    <nav id="navmenu" class="navmenu">
-      <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-    </nav>
-
-  </div>
-</header>
-
-
+<?php
+include('./layouts/nav.php');
+?>
   <main class="main">
 
   <!-- Hero Section -->
@@ -36,7 +20,7 @@ include ('./layouts/header.php');
       </div>
 
       <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-in">
-        <h2>Layanan Kesehatan</h2>
+        <h2>Rekayasa Perangkat Lunak</h2>
         <p>Rekayasa Perangkat Lunak (RPL) adalah bidang yang fokus pada pengembangan dan pemeliharaan perangkat lunak berkualitas. Prosesnya meliputi analisis, desain, pengkodean, dan pengujian.
          </div>
       </div>
@@ -64,12 +48,12 @@ include ('./layouts/header.php');
       <div class="container">
         <div class="row gy-4 align-items-center">
           <div class="col-md-5 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
-            <img src="assets/img/logo/lk.png" class="img-fluid" alt="" style="width: 85%; height: 450px;">
+            <img src="assets/img/logo_rpl.png" class="img-fluid" alt="" style="width: 100%; height: 500px;">
           </div>
           <div class="col-md-7" data-aos="fade-up" data-aos-delay="100">
-            <h1>Layanan Kesehatan (LK) SMK Bina Cendekia Cirebon</h1>
-            <p>Layanan kesehatan merujuk pada berbagai jenis perawatan medis yang diberikan untuk menjaga atau meningkatkan kesehatan individu. Layanan ini meliputi pencegahan, diagnosis, pengobatan, serta pemulihan penyakit atau cedera. Biasanya, layanan kesehatan disediakan oleh tenaga medis profesional seperti dokter, perawat, dan tenaga medis lainnya di rumah sakit, klinik, atau fasilitas kesehatan lainnya. Selain itu, layanan kesehatan juga mencakup pelayanan kesehatan mental, gigi, dan obat-obatan, yang bertujuan untuk memenuhi kebutuhan kesehatan fisik dan mental masyarakat.</p>
-            <p>Layanan kesehatan memiliki peran penting dalam meningkatkan kualitas hidup dan produktivitas masyarakat. Akses yang baik terhadap layanan kesehatan dapat mengurangi angka kematian, mencegah penyebaran penyakit, dan membantu orang pulih dari kondisi medis. Namun, tantangan dalam layanan kesehatan, seperti keterbatasan akses, biaya, dan kualitas, masih perlu diatasi untuk memastikan setiap individu dapat memperoleh perawatan yang mereka butuhkan. Teknologi dan inovasi, seperti telemedicine dan sistem kesehatan digital, semakin mendukung efisiensi dan aksesibilitas layanan kesehatan.</p>
+            <h1>Rekayasa Perangkat Lunak (RPL) SMK Bina Cendekia Cirebon</h1>
+            <p>Rekayasa Perangkat Lunak (RPL) adalah bidang yang fokus pada pembuatan, pengembangan, dan pemeliharaan perangkat lunak yang berkualitas. Proses RPL melibatkan beberapa tahapan, mulai dari analisis kebutuhan, desain, pengembangan, pengujian, hingga pemeliharaan. Tujuan utamanya adalah menciptakan perangkat lunak yang efisien, dapat diandalkan, dan sesuai dengan kebutuhan pengguna, dengan menggunakan berbagai metodologi seperti Agile, Waterfall, atau DevOps untuk mengelola proyek.</p>
+            <p>Karir di RPL mencakup pekerjaan seperti pengembang perangkat lunak, analis sistem, dan manajer proyek. Keahlian yang dibutuhkan antara lain pemrograman, analisis sistem, serta kemampuan komunikasi dan manajemen proyek. RPL menghadapi tantangan seperti kompleksitas sistem, perubahan kebutuhan, dan masalah keamanan, namun juga menawarkan peluang besar di dunia teknologi yang terus berkembang.</p>
           </div>
         </div>
       </div>
@@ -80,7 +64,7 @@ include ('./layouts/header.php');
 <!-- Section Title -->
 <div class="container section-title" data-aos="fade-up">
   <h2>Mengenai</h2>
-  <div><span>Layanan Kesehatan</span> <span class="description-title">di SMK Bina Cendekia Cirebon</span></div>
+  <div><span>Rekayasa Perangkat Lunak</span> <span class="description-title">di SMK Bina Cendekia Cirebon</span></div>
 </div><!-- End Section Title -->
 
 <div class="container" data-aos="fade-up" data-aos-delay="100">
