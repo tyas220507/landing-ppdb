@@ -49,7 +49,7 @@ include'./smkbece/layouts/header.php';
 </section>
 
 <!--visimisi-->
-<section id="details" class="details section">
+<section id="profile" class="details section">
   <div class="container">
     <div class="row gy-4 align-items-center">
       <div class="col-md-5 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
@@ -66,7 +66,7 @@ include'./smkbece/layouts/header.php';
 <!--/visimisi>
 
 <--jurusan-->
-<section id="team" class="team section">
+<section id="jurusan" class="team section">
   <div class="container section-title" data-aos="fade-up">
     <h2>Keahlian</h2>
     <div><span>Hadir Dengan Pilihan Kompetensi
@@ -87,7 +87,7 @@ include'./smkbece/layouts/header.php';
             <span>Rekayasa Perangkat Lunak (RPL) adalah jurusan yang fokus pada pengembangan perangkat lunak</span>
             <p>
             <div class="d-flex">
-              <a href="rpl.php" class="btn-get-started" style="color: #003366;">Lihat Selengkapnya >></a>
+              <a href="<?= BASE_URL ?>smkbece/rpl.php" class="btn-get-started" style="color: #003366;">Lihat Selengkapnya >></a>
             </div>
           </div>
         </div>
@@ -104,7 +104,7 @@ include'./smkbece/layouts/header.php';
             <span>Jurusan Layanan Kesehatan fokus pada manajemen dan perawatan medis di fasilitas kesehatan.</span>
             <p>
             <div class="d-flex">
-              <a href="lk.php" class="btn-get-started" style="color: #003366;">Lihat Selengkapnya >></a>
+              <a href="<?= BASE_URL ?>smkbece/lk.php" class="btn-get-started" style="color: #003366;">Lihat Selengkapnya >></a>
             </div>
           </div>
         </div>
@@ -122,7 +122,7 @@ include'./smkbece/layouts/header.php';
               Jurusan Tata Busana mempelajari desain dan pembuatan busana. Lulusan bekerja di industri fashion.</span>
             <p>
             <div class="d-flex">
-              <a href="tabus.php" class="btn-get-started" style="color: #003366;">Lihat Selengkapnya >></a>
+              <a href="<?= BASE_URL ?>smkbece/tabus.php" class="btn-get-started" style="color: #003366;">Lihat Selengkapnya >></a>
             </div>
           </div>
         </div>
@@ -145,7 +145,7 @@ include'./smkbece/layouts/header.php';
             <span>Jurusan Desain Komunikasi Visual fokus pada pembuatan desain grafis untuk menyampaikan pesan.</span>
             <p>
             <div class="d-flex">
-              <a href="dkv.php" class="btn-get-started" style="color: #003366;">Lihat Selengkapnya >></a>
+              <a href="<?= BASE_URL ?>smkbece/dkv.php" class="btn-get-started" style="color: #003366;">Lihat Selengkapnya >></a>
             </div>
           </div>
         </div>
@@ -163,7 +163,7 @@ include'./smkbece/layouts/header.php';
             <span>Jurusan Teknik Bodi Otomotif mempelajari perbaikan dan pembuatan bodi kendaraan.</span>
             <p>
             <div class="d-flex">
-              <a href="tbo.php" class="btn-get-started" style="color: #003366;">Lihat Selengkapnya >></a>
+              <a href="<?= BASE_URL ?>smkbece/tbo.php" class="btn-get-started" style="color: #003366;">Lihat Selengkapnya >></a>
             </div>
           </div>
         </div>
@@ -181,7 +181,7 @@ include'./smkbece/layouts/header.php';
               Samsung Tech Institute adalah pelatihan teknologi untuk karir di Samsung.</span>
             <p>
             <div class="d-flex">
-              <a href="sti.php" class="btn-get-started" style="color: #003366;">Lihat Selengkapnya >></a>
+              <a href="<?= BASE_URL ?>smkbece/sti.php" class="btn-get-started" style="color: #003366;">Lihat Selengkapnya >></a>
             </div>
           </div>
         </div>
@@ -199,7 +199,7 @@ include'./smkbece/layouts/header.php';
 
 
 <!-- Gallery Section -->
-<section id="gallery" class="gallery section">
+<section id="fasilitas" class="gallery section">
 
   <!-- Section Title -->
   <div class="container section-title" data-aos="fade-up">
@@ -309,7 +309,7 @@ include'./smkbece/layouts/header.php';
 
 
 <!-- Testimonials Section -->
-<section id="testimonials" class="testimonials section dark-background">
+<section id="fasilitas" class="testimonials section dark-background">
 
   <img src="<?= ASSETS_PATH ?>img/school.jpg" class="testimonials-bg" alt="">
 
