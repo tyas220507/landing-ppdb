@@ -80,7 +80,7 @@ include'./smkbece/layouts/header.php';
       <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
         <div class="member">
           <div class="pic">
-            <img src="<?= ASSETS_PATH ?>img/team/a.jpeg" class="img-fluid" alt="" style="width: 100%; height: 500px; object-fit: cover;">
+            <img src="<?= ASSETS_PATH ?>img/team/rpl.jpeg" class="img-fluid" alt="" style="width: 100%; height: 500px; object-fit: cover;">
           </div>
           <div class="member-info">
             <h4>Rekayasa Perangkat Lunak (RPL)</h4>
@@ -97,7 +97,7 @@ include'./smkbece/layouts/header.php';
       <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
         <div class="member">
           <div class="pic">
-            <img src="<?= ASSETS_PATH ?>img/team/b.jpeg" class="img-fluid" alt="" style="width: 100%; height: 500px; object-fit: cover;">
+            <img src="<?= ASSETS_PATH ?>img/team/askep.jpeg" class="img-fluid" alt="" style="width: 100%; height: 500px; object-fit: cover;">
           </div>
           <div class="member-info">
             <h4>Layanan Kesehatan</h4>
@@ -114,7 +114,7 @@ include'./smkbece/layouts/header.php';
       <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
         <div class="member">
           <div class="pic">
-            <img src="<?= ASSETS_PATH ?>img/team/c.jpeg" class="img-fluid" alt="" style="width: 100%; height: 500px; object-fit: cover;">
+            <img src="<?= ASSETS_PATH ?>img/team/tabus.jpeg" class="img-fluid" alt="" style="width: 100%; height: 500px; object-fit: cover;">
           </div>
           <div class="member-info">
             <h4>Tata Busana</h4>
@@ -138,7 +138,7 @@ include'./smkbece/layouts/header.php';
       <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
         <div class="member">
           <div class="pic">
-            <img src="<?= ASSETS_PATH ?>img/team/d.jpeg" class="img-fluid" alt="" style="width: 100%; height: 500px; object-fit: cover;">
+            <img src="<?= ASSETS_PATH ?>img/team/dkv.jpeg" class="img-fluid" alt="" style="width: 100%; height: 500px; object-fit: cover;">
           </div>
           <div class="member-info">
             <h4>Desain Komunikasi Visual</h4>
@@ -156,7 +156,7 @@ include'./smkbece/layouts/header.php';
       <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
         <div class="member">
           <div class="pic">
-            <img src="<?= ASSETS_PATH ?>img/team/a.jpeg" class="img-fluid" alt="" style="width: 100%; height: 500px; object-fit: cover;">
+            <img src="<?= ASSETS_PATH ?>img/team/tbo.jpeg" class="img-fluid" alt="" style="width: 100%; height: 500px; object-fit: cover;">
           </div>
           <div class="member-info">
             <h4>Teknik Bodi Otomotif</h4>
@@ -173,7 +173,7 @@ include'./smkbece/layouts/header.php';
       <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
         <div class="member">
           <div class="pic">
-            <img src="<?= ASSETS_PATH ?>img/team/b.jpeg" class="img-fluid" alt="" style="width: 100%; height: 500px; object-fit: cover;">
+            <img src="<?= ASSETS_PATH ?>img/team/rpl.jpeg" class="img-fluid" alt="" style="width: 100%; height: 500px; object-fit: cover;">
           </div>
           <div class="member-info">
             <h4>Samsung Tech Institute</h4>
@@ -391,7 +391,7 @@ text-align: center;
 
 
 <!-- Details Section -->
-<section id="details" class="details section">
+<section id="fasilitas" class="details section">
   <div class="container">
     <div class="row gy-4 align-items-center features-item">
       <div class="col-md-5 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
