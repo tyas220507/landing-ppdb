@@ -355,11 +355,17 @@ include('./layouts/header.php');
           <!-- Team Section -->
    
 <!-- Section Title -->
+<h1 class="text-center text-light display-3 fw-bold mb-4">
+  Wujudkan Impianmu Bersama <br>
+  <span class="text-light">SMK BINA CENDEKIA CIREBON</span>
+</h1>
 
-  <h1 class="text-center">Wujudkan Impianmu Bersama <br>
-SMK BINA CENDEKIA CIREBON</h1>
-  <div class="text-center"><h5>SMK Bina Cendekia Cirebon menjadi wahana bertumbuh untuk mempersiapkan diri melanjutkan perjalanan menuntut ilmu di Perguruan Tinggi Negeri.</h5></div>
-</div><!-- End Section Title -->
+<div class="text-center mb-5">
+  <i><h7 class="lead text-white fw-bold" style="font-family: 'Roboto', sans-serif;">
+    SMK Bina Cendekia Cirebon menjadi wahana bertumbuh untuk mempersiapkan diri 
+   <br>melanjutkan perjalanan menuntut ilmu di Perguruan Tinggi Negeri.
+  </h7></i>
+</div>
 
 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
   <div class="center">
