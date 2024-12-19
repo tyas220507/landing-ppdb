@@ -37,6 +37,7 @@ include'./layouts/header.php';
                   <th scope="col">Jenis Kelamin</th>
                   <th scope="col">Asal Sekolah</th>
                   <th scope="col">Jurusan</th>
+                  <th scope="col">Status</th>
                 </tr>
               </thead>
               <tbody>
@@ -47,6 +48,7 @@ include'./layouts/header.php';
                   <td scope="col">L</td>
                   <td scope="col">SMP Bina Cendekia</td>
                   <td scope="col">Rekayasa Perngkat Lunak</td>
+                  <td scope="col">Rekayasa Perngkat Lunak</td>
                 </tr>
                 <tr>
                   <td scope="col">2</td>
@@ -54,6 +56,7 @@ include'./layouts/header.php';
                   </td>
                   <td scope="col">L</td>
                   <td scope="col">SMP Bina Cendekia</td>
+                  <td scope="col">Rekayasa Perngkat Lunak</td>
                   <td scope="col">Rekayasa Perngkat Lunak</td>
                 </tr>
                 <tr>
@@ -63,6 +66,7 @@ include'./layouts/header.php';
                   <td scope="col">L</td>
                   <td scope="col">SMP Bina Cendekia</td>
                   <td scope="col">Rekayasa Perngkat Lunak</td>
+                  <td scope="col">Rekayasa Perngkat Lunak</td>
                 </tr>
                 <tr>
                   <td scope="col">4</td>
@@ -70,6 +74,7 @@ include'./layouts/header.php';
                   </td>
                   <td scope="col">L</td>
                   <td scope="col">SMP Bina Cendekia</td>
+                  <td scope="col">Rekayasa Perngkat Lunak</td>
                   <td scope="col">Rekayasa Perngkat Lunak</td>
                 </tr>
                 <tr>
@@ -79,6 +84,7 @@ include'./layouts/header.php';
                   <td scope="col">L</td>
                   <td scope="col">SMP Bina Cendekia</td>
                   <td scope="col">Rekayasa Perngkat Lunak</td>
+                  <td scope="col">Rekayasa Perngkat Lunak</td>
                 </tr>
                 <tr>
                   <td scope="col">6</td>
@@ -86,6 +92,7 @@ include'./layouts/header.php';
                   </td>
                   <td scope="col">L</td>
                   <td scope="col">SMP Bina Cendekia</td>
+                  <td scope="col">Rekayasa Perngkat Lunak</td>
                   <td scope="col">Rekayasa Perngkat Lunak</td>
                 </tr>
                 <tr>
@@ -95,6 +102,7 @@ include'./layouts/header.php';
                   <td scope="col">L</td>
                   <td scope="col">SMP Bina Cendekia</td>
                   <td scope="col">Rekayasa Perngkat Lunak</td>
+                  <td scope="col">Rekayasa Perngkat Lunak</td>
                 </tr>
                 <tr>
                   <td scope="col">8</td>
@@ -102,6 +110,7 @@ include'./layouts/header.php';
                   </td>
                   <td scope="col">L</td>
                   <td scope="col">SMP Bina Cendekia</td>
+                  <td scope="col">Rekayasa Perngkat Lunak</td>
                   <td scope="col">Rekayasa Perngkat Lunak</td>
                 </tr>
                 <tr>
@@ -111,13 +120,6 @@ include'./layouts/header.php';
                   <td scope="col">L</td>
                   <td scope="col">SMP Bina Cendekia</td>
                   <td scope="col">Rekayasa Perngkat Lunak</td>
-                </tr>
-                <tr>
-                  <td scope="col">1</td>
-                  <td scope="col">Nama
-                  </td>
-                  <td scope="col">L</td>
-                  <td scope="col">SMP Bina Cendekia</td>
                   <td scope="col">Rekayasa Perngkat Lunak</td>
                 </tr>
                 <tr>
@@ -127,13 +129,6 @@ include'./layouts/header.php';
                   <td scope="col">L</td>
                   <td scope="col">SMP Bina Cendekia</td>
                   <td scope="col">Rekayasa Perngkat Lunak</td>
-                </tr>
-                <tr>
-                  <td scope="col">1</td>
-                  <td scope="col">Nama
-                  </td>
-                  <td scope="col">L</td>
-                  <td scope="col">SMP Bina Cendekia</td>
                   <td scope="col">Rekayasa Perngkat Lunak</td>
                 </tr>
                 <tr>
@@ -143,13 +138,6 @@ include'./layouts/header.php';
                   <td scope="col">L</td>
                   <td scope="col">SMP Bina Cendekia</td>
                   <td scope="col">Rekayasa Perngkat Lunak</td>
-                </tr>
-                <tr>
-                  <td scope="col">1</td>
-                  <td scope="col">Nama
-                  </td>
-                  <td scope="col">L</td>
-                  <td scope="col">SMP Bina Cendekia</td>
                   <td scope="col">Rekayasa Perngkat Lunak</td>
                 </tr>
                 <tr>
@@ -159,13 +147,6 @@ include'./layouts/header.php';
                   <td scope="col">L</td>
                   <td scope="col">SMP Bina Cendekia</td>
                   <td scope="col">Rekayasa Perngkat Lunak</td>
-                </tr>
-                <tr>
-                  <td scope="col">1</td>
-                  <td scope="col">Nama
-                  </td>
-                  <td scope="col">L</td>
-                  <td scope="col">SMP Bina Cendekia</td>
                   <td scope="col">Rekayasa Perngkat Lunak</td>
                 </tr>
                 <tr>
@@ -175,13 +156,6 @@ include'./layouts/header.php';
                   <td scope="col">L</td>
                   <td scope="col">SMP Bina Cendekia</td>
                   <td scope="col">Rekayasa Perngkat Lunak</td>
-                </tr>
-                <tr>
-                  <td scope="col">1</td>
-                  <td scope="col">Nama
-                  </td>
-                  <td scope="col">L</td>
-                  <td scope="col">SMP Bina Cendekia</td>
                   <td scope="col">Rekayasa Perngkat Lunak</td>
                 </tr>
                 <tr>
@@ -191,13 +165,6 @@ include'./layouts/header.php';
                   <td scope="col">L</td>
                   <td scope="col">SMP Bina Cendekia</td>
                   <td scope="col">Rekayasa Perngkat Lunak</td>
-                </tr>
-                <tr>
-                  <td scope="col">1</td>
-                  <td scope="col">Nama
-                  </td>
-                  <td scope="col">L</td>
-                  <td scope="col">SMP Bina Cendekia</td>
                   <td scope="col">Rekayasa Perngkat Lunak</td>
                 </tr>
                 <tr>
@@ -207,13 +174,6 @@ include'./layouts/header.php';
                   <td scope="col">L</td>
                   <td scope="col">SMP Bina Cendekia</td>
                   <td scope="col">Rekayasa Perngkat Lunak</td>
-                </tr>
-                <tr>
-                  <td scope="col">1</td>
-                  <td scope="col">Nama
-                  </td>
-                  <td scope="col">L</td>
-                  <td scope="col">SMP Bina Cendekia</td>
                   <td scope="col">Rekayasa Perngkat Lunak</td>
                 </tr>
                 <tr>
@@ -223,13 +183,6 @@ include'./layouts/header.php';
                   <td scope="col">L</td>
                   <td scope="col">SMP Bina Cendekia</td>
                   <td scope="col">Rekayasa Perngkat Lunak</td>
-                </tr>
-                <tr>
-                  <td scope="col">1</td>
-                  <td scope="col">Nama
-                  </td>
-                  <td scope="col">L</td>
-                  <td scope="col">SMP Bina Cendekia</td>
                   <td scope="col">Rekayasa Perngkat Lunak</td>
                 </tr>
                 <tr>
@@ -239,13 +192,6 @@ include'./layouts/header.php';
                   <td scope="col">L</td>
                   <td scope="col">SMP Bina Cendekia</td>
                   <td scope="col">Rekayasa Perngkat Lunak</td>
-                </tr>
-                <tr>
-                  <td scope="col">1</td>
-                  <td scope="col">Nama
-                  </td>
-                  <td scope="col">L</td>
-                  <td scope="col">SMP Bina Cendekia</td>
                   <td scope="col">Rekayasa Perngkat Lunak</td>
                 </tr>
                 <tr>
@@ -255,13 +201,6 @@ include'./layouts/header.php';
                   <td scope="col">L</td>
                   <td scope="col">SMP Bina Cendekia</td>
                   <td scope="col">Rekayasa Perngkat Lunak</td>
-                </tr>
-                <tr>
-                  <td scope="col">1</td>
-                  <td scope="col">Nama
-                  </td>
-                  <td scope="col">L</td>
-                  <td scope="col">SMP Bina Cendekia</td>
                   <td scope="col">Rekayasa Perngkat Lunak</td>
                 </tr>
                 <tr>
@@ -271,13 +210,6 @@ include'./layouts/header.php';
                   <td scope="col">L</td>
                   <td scope="col">SMP Bina Cendekia</td>
                   <td scope="col">Rekayasa Perngkat Lunak</td>
-                </tr>
-                <tr>
-                  <td scope="col">1</td>
-                  <td scope="col">Nama
-                  </td>
-                  <td scope="col">L</td>
-                  <td scope="col">SMP Bina Cendekia</td>
                   <td scope="col">Rekayasa Perngkat Lunak</td>
                 </tr>
                 <tr>
@@ -287,13 +219,6 @@ include'./layouts/header.php';
                   <td scope="col">L</td>
                   <td scope="col">SMP Bina Cendekia</td>
                   <td scope="col">Rekayasa Perngkat Lunak</td>
-                </tr>
-                <tr>
-                  <td scope="col">1</td>
-                  <td scope="col">Nama
-                  </td>
-                  <td scope="col">L</td>
-                  <td scope="col">SMP Bina Cendekia</td>
                   <td scope="col">Rekayasa Perngkat Lunak</td>
                 </tr>
                 <tr>
@@ -303,6 +228,7 @@ include'./layouts/header.php';
                   <td scope="col">L</td>
                   <td scope="col">SMP Bina Cendekia</td>
                   <td scope="col">Rekayasa Perngkat Lunak</td>
+                  <td scope="col">Rekayasa Perngkat Lunak</td>
                 </tr>
                 <tr>
                   <td scope="col">1</td>
@@ -310,6 +236,115 @@ include'./layouts/header.php';
                   </td>
                   <td scope="col">L</td>
                   <td scope="col">SMP Bina Cendekia</td>
+                  <td scope="col">Rekayasa Perngkat Lunak</td>
+                  <td scope="col">Rekayasa Perngkat Lunak</td>
+                </tr>
+                <tr>
+                  <td scope="col">1</td>
+                  <td scope="col">Nama
+                  </td>
+                  <td scope="col">L</td>
+                  <td scope="col">SMP Bina Cendekia</td>
+                  <td scope="col">Rekayasa Perngkat Lunak</td>
+                  <td scope="col">Rekayasa Perngkat Lunak</td>
+                </tr>
+                <tr>
+                  <td scope="col">1</td>
+                  <td scope="col">Nama
+                  </td>
+                  <td scope="col">L</td>
+                  <td scope="col">SMP Bina Cendekia</td>
+                  <td scope="col">Rekayasa Perngkat Lunak</td>
+                  <td scope="col">Rekayasa Perngkat Lunak</td>
+                </tr>
+                <tr>
+                  <td scope="col">1</td>
+                  <td scope="col">Nama
+                  </td>
+                  <td scope="col">L</td>
+                  <td scope="col">SMP Bina Cendekia</td>
+                  <td scope="col">Rekayasa Perngkat Lunak</td>
+                  <td scope="col">Rekayasa Perngkat Lunak</td>
+                </tr>
+                <tr>
+                  <td scope="col">1</td>
+                  <td scope="col">Nama
+                  </td>
+                  <td scope="col">L</td>
+                  <td scope="col">SMP Bina Cendekia</td>
+                  <td scope="col">Rekayasa Perngkat Lunak</td>
+                  <td scope="col">Rekayasa Perngkat Lunak</td>
+                </tr>
+                <tr>
+                  <td scope="col">1</td>
+                  <td scope="col">Nama
+                  </td>
+                  <td scope="col">L</td>
+                  <td scope="col">SMP Bina Cendekia</td>
+                  <td scope="col">Rekayasa Perngkat Lunak</td>
+                  <td scope="col">Rekayasa Perngkat Lunak</td>
+                </tr>
+                <tr>
+                  <td scope="col">1</td>
+                  <td scope="col">Nama
+                  </td>
+                  <td scope="col">L</td>
+                  <td scope="col">SMP Bina Cendekia</td>
+                  <td scope="col">Rekayasa Perngkat Lunak</td>
+                  <td scope="col">Rekayasa Perngkat Lunak</td>
+                </tr>
+                <tr>
+                  <td scope="col">1</td>
+                  <td scope="col">Nama
+                  </td>
+                  <td scope="col">L</td>
+                  <td scope="col">SMP Bina Cendekia</td>
+                  <td scope="col">Rekayasa Perngkat Lunak</td>
+                  <td scope="col">Rekayasa Perngkat Lunak</td>
+                </tr>
+                <tr>
+                  <td scope="col">1</td>
+                  <td scope="col">Nama
+                  </td>
+                  <td scope="col">L</td>
+                  <td scope="col">SMP Bina Cendekia</td>
+                  <td scope="col">Rekayasa Perngkat Lunak</td>
+                  <td scope="col">Rekayasa Perngkat Lunak</td>
+                </tr>
+                <tr>
+                  <td scope="col">1</td>
+                  <td scope="col">Nama
+                  </td>
+                  <td scope="col">L</td>
+                  <td scope="col">SMP Bina Cendekia</td>
+                  <td scope="col">Rekayasa Perngkat Lunak</td>
+                  <td scope="col">Rekayasa Perngkat Lunak</td>
+                </tr>
+                <tr>
+                  <td scope="col">1</td>
+                  <td scope="col">Nama
+                  </td>
+                  <td scope="col">L</td>
+                  <td scope="col">SMP Bina Cendekia</td>
+                  <td scope="col">Rekayasa Perngkat Lunak</td>
+                  <td scope="col">Rekayasa Perngkat Lunak</td>
+                </tr>
+                <tr>
+                  <td scope="col">1</td>
+                  <td scope="col">Nama
+                  </td>
+                  <td scope="col">L</td>
+                  <td scope="col">SMP Bina Cendekia</td>
+                  <td scope="col">Rekayasa Perngkat Lunak</td>
+                  <td scope="col">Rekayasa Perngkat Lunak</td>
+                </tr>
+                <tr>
+                  <td scope="col">1</td>
+                  <td scope="col">Nama
+                  </td>
+                  <td scope="col">L</td>
+                  <td scope="col">SMP Bina Cendekia</td>
+                  <td scope="col">Rekayasa Perngkat Lunak</td>
                   <td scope="col">Rekayasa Perngkat Lunak</td>
                 </tr>
                
