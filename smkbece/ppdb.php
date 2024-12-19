@@ -8,10 +8,11 @@ if (!$conn) {
 }
 
 // Query SQL
-$query = "SELECT ip.id_pendaftaran, s.asal_sekolah, s.jenis_kelamin, ip.status_pendaftaran, j.jurusan, s.nama_lengkap
-          FROM info_pendaftaran ip
-          JOIN siswa s ON ip.nisn = s.nisn
-          JOIN jurusan j ON ip.id_jurusan = j.id_jurusan";
+$query = "SELECT ip.id_pendaftaran, s.asal_sekolah, s.jenis_kelamin, ip.status_pendaftaran, s.id_jurusan, j.jurusan, s.nama_lengkap
+FROM info_pendaftaran ip
+JOIN siswa s ON ip.nisn = s.nisn
+JOIN jurusan j ON s.id_jurusan = j.id_jurusan;
+";
 
 $result = mysqli_query($conn, $query);
 
@@ -35,8 +36,9 @@ if (!$result) {
                                 <h3 class="text-dark">Informasi Pendaftaran Siswa Baru 2025</h3>
                             </div>
                             <div class="col-lg-6 col-md-12">
-                            <input type="search" placeholder="Cari Nama, Asal Sekolah ..." class="form-control" id="searchInput">
-                            <ul id="searchResults"></ul>                            </div>
+                                <input type="search" placeholder="Cari Nama, Asal Sekolah ..." class="form-control" id="searchInput">
+                                <ul id="searchResults"></ul>
+                            </div>
                         </div>
                     </div>
                     <div class="card-body">
@@ -68,4 +70,3 @@ if (!$result) {
                                     <?php
                                     }
                                     ?>
-               
