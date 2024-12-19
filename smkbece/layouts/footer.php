@@ -94,6 +94,40 @@ if (!defined('ASSETS_PATH')) {
 <!-- Main JS File -->
 <script src="<?= ASSETS_PATH ?>js/main.js"></script>
 
+<script>
+// Data yang bisa dicari
+const data = [
+    { nama: "John Doe", sekolah: "SMA 1" },
+    { nama: "Jane Smith", sekolah: "SMA 2" },
+    { nama: "Ali Ahmad", sekolah: "SMA 3" },
+    { nama: "Maria Sari", sekolah: "SMA 4" },
+    { nama: "David Lee", sekolah: "SMA 1" }
+];
+
+// Menangani input pencarian
+document.getElementById('searchInput').addEventListener('input', function() {
+    const query = this.value.toLowerCase(); // Mengambil nilai pencarian dan mengubah menjadi huruf kecil
+    const results = data.filter(item =>
+        item.nama.toLowerCase().includes(query) || item.sekolah.toLowerCase().includes(query)
+    );
+
+    const resultsContainer = document.getElementById('searchResults');
+    resultsContainer.innerHTML = ''; // Bersihkan hasil pencarian sebelumnya
+
+    if (results.length) {
+        results.forEach(item => {
+            const li = document.createElement('li');
+            li.textContent = `${item.nama} - ${item.sekolah}`;
+            resultsContainer.appendChild(li); // Menambahkan hasil pencarian ke dalam elemen <ul>
+        });
+    } else {
+        resultsContainer.innerHTML = '<li>Tidak ditemukan hasil</li>'; // Menampilkan pesan jika tidak ada hasil
+    }
+});
+</script>
+
+
+
 </body>
 
 </html>

@@ -1,9 +1,4 @@
 <?php
-// Mengaktifkan pelaporan error untuk debugging
-ini_set('display_errors', 1);
-error_reporting(E_ALL);
-
-// Menyertakan file yang diperlukan
 include './layouts/header.php';
 include '../koneksi.php';
 
@@ -40,8 +35,8 @@ if (!$result) {
                                 <h3 class="text-dark">Informasi Pendaftaran Siswa Baru 2025</h3>
                             </div>
                             <div class="col-lg-6 col-md-12">
-                                <input type="search" placeholder="Cari Nama, Asal Sekolah ..." class="form-control">
-                            </div>
+                            <input type="search" placeholder="Cari Nama, Asal Sekolah ..." class="form-control" id="searchInput">
+                            <ul id="searchResults"></ul>                            </div>
                         </div>
                     </div>
                     <div class="card-body">
