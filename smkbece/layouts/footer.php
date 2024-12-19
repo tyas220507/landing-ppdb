@@ -93,41 +93,52 @@ if (!defined('ASSETS_PATH')) {
 
 <!-- Main JS File -->
 <script src="<?= ASSETS_PATH ?>js/main.js"></script>
-
+<link rel="stylesheet" href="/DataTables/datatables.css" />
+<script src="/DataTables/datatables.js">
+$(document).ready( function () {
+    $('#myTable').DataTable();
+} );
+</script>
+<!-- JavaScript for Search Functionality -->
 <script>
-// Data yang bisa dicari
-const data = [
-    { nama: "John Doe", sekolah: "SMA 1" },
-    { nama: "Jane Smith", sekolah: "SMA 2" },
-    { nama: "Ali Ahmad", sekolah: "SMA 3" },
-    { nama: "Maria Sari", sekolah: "SMA 4" },
-    { nama: "David Lee", sekolah: "SMA 1" }
-];
+        document.getElementById("searchInput").addEventListener("input", function() {
+    var searchQuery = this.value.toLowerCase();
+    var table = document.getElementById("pendaftaranTable");
+    var rows = table.getElementsByTagName("tr");
+    var searchResults = document.getElementById("searchResults");
 
-// Menangani input pencarian
-document.getElementById('searchInput').addEventListener('input', function() {
-    const query = this.value.toLowerCase(); // Mengambil nilai pencarian dan mengubah menjadi huruf kecil
-    const results = data.filter(item =>
-        item.nama.toLowerCase().includes(query) || item.sekolah.toLowerCase().includes(query)
-    );
+    // Kosongkan hasil pencarian sebelumnya
+    searchResults.innerHTML = "";
 
-    const resultsContainer = document.getElementById('searchResults');
-    resultsContainer.innerHTML = ''; // Bersihkan hasil pencarian sebelumnya
+    // Loop through all table rows (skip the header row)
+    for (var i = 1; i < rows.length; i++) {
+        var cells = rows[i].getElementsByTagName("td");
+        var found = false;
+        var resultText = "";
 
-    if (results.length) {
-        results.forEach(item => {
-            const li = document.createElement('li');
-            li.textContent = `${item.nama} - ${item.sekolah}`;
-            resultsContainer.appendChild(li); // Menambahkan hasil pencarian ke dalam elemen <ul>
-        });
-    } else {
-        resultsContainer.innerHTML = '<li>Tidak ditemukan hasil</li>'; // Menampilkan pesan jika tidak ada hasil
+        // Loop through all cells in the row
+        for (var j = 0; j < cells.length; j++) {
+            var cellText = cells[j].textContent || cells[j].innerText;
+            if (cellText.toLowerCase().indexOf(searchQuery) > -1) {
+                found = true;
+                resultText += cellText + " "; // Add matched cell content to resultText
+            }
+        }
+
+        // Show or hide the row based on the search query
+        if (found) {
+            rows[i].style.display = "";
+            
+            // Add matching text to the searchResults list
+            var li = document.createElement("li");
+            li.textContent = resultText.trim();  // Trim extra spaces
+            searchResults.appendChild(li);
+        } else {
+            rows[i].style.display = "none";
+        }
     }
 });
-</script>
 
-
-
+    </script>
 </body>
-
 </html>

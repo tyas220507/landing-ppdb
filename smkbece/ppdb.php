@@ -36,17 +36,17 @@ if (!$result) {
                                 <h3 class="text-dark">Informasi Pendaftaran Siswa Baru 2025</h3>
                             </div>
                             <div class="col-lg-6 col-md-12">
-                                <input type="search" placeholder="Cari Nama, Asal Sekolah ..." class="form-control" id="searchInput">
-                                <ul id="searchResults"></ul>
+                            <input type="search" placeholder="Cari Nama, Asal Sekolah ..." class="form-control" id="searchInput">
+                            <ul id="searchResults"></ul>
                             </div>
                         </div>
                     </div>
                     <div class="card-body">
                         <div class="table-responsive">
-                            <table class="table">
+                            <table class="table" id="pendaftaranTable">
                                 <thead>
                                     <tr>
-                                        <th scope="col">#</th>
+                                        <th scope="col">No</th>
                                         <th scope="col">Nama</th>
                                         <th scope="col">Jenis Kelamin</th>
                                         <th scope="col">Asal Sekolah</th>

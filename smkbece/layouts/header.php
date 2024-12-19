@@ -14,9 +14,9 @@ define('BASE_URL', 'http://localhost/landing-ppdb/');
   <meta name="keywords" content="">
 
   <!-- Favicons -->
-  <link href="<?= ASSETS_PATH ?>img/favicon.png" rel="icon">
+  <link href="<?= ASSETS_PATH ?>img/bc.png"g" rel="icon">
   <link href="<?= ASSETS_PATH ?>img/apple-touch-icon.png" rel="apple-touch-icon">
- 
+
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
@@ -31,6 +31,8 @@ define('BASE_URL', 'http://localhost/landing-ppdb/');
 
   <!-- Main CSS File -->
   <link href="<?= ASSETS_PATH ?>css/main.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.datatables.net/2.1.8/css/dataTables.dataTables.css" />
+
 
   <!-- =======================================================
   * Template Name: Bootslander
