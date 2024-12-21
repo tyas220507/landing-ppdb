@@ -1,5 +1,7 @@
 <?php
 include './smkbece/layouts/header.php';
+include './foto_landing.php';
+
 ?>
 
 <body class="index-page">
@@ -53,7 +55,8 @@ include './smkbece/layouts/header.php';
       <div class="container">
         <div class="row gy-4 align-items-center">
           <div class="col-md-5 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
-            <img src="<?= ASSETS_PATH ?>img/bc.png" class="img-fluid" alt="" style="width: 75%%; height: 300px;">
+          <img src="<?php echo $image_url; ?>" alt="Dynamic Image" class="img-fluid" alt="" style="width: 75%%; height: 300px;">
+          <p><?php echo $image_description; ?></p>
           </div>
           <div class="col-md-7" data-aos="fade-up" data-aos-delay="100">
             <h1 style="text-align: justify; font-weight: bold;"><b>SMK Bina Cendekia Cirebon </b></h1>

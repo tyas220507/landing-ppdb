@@ -12,9 +12,6 @@ define('BASE_URL', 'http://localhost/landing-ppdb/');
   <title>PPDB SMK BINA CENDEKIA</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
-
-  <!-- Favicons -->
-  <link href="<?= ASSETS_PATH ?>img/bc.png"g" rel="icon">
   <link href="<?= ASSETS_PATH ?>img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Fonts -->
