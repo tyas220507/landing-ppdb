@@ -45,20 +45,7 @@ include('./layouts/header.php');
     </section>
 
 
-    <section id="details" class="details section">
-      <div class="container">
-        <div class="row gy-4 align-items-center">
-          <div class="col-md-5 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
-            <img src="<?= ASSETS_PATH ?>img/logo_rpl.png" class="img-fluid" alt="" style="width: 100%; height: 500px;">
-          </div>
-          <div class="col-md-7" data-aos="fade-up" data-aos-delay="100">
-            <h1> Layanan Kesehatan (LK) SMK Bina Cendekia Cirebon</h1>
-            <p style="text-align: justify;">Layanan Kesehatan adalah bidang yang berfokus pada penyediaan perawatan medis dan dukungan kesehatan untuk masyarakat. 
-              Jurusan ini mencakup berbagai aspek, mulai dari perawatan pasien, administrasi kesehatan, hingga manajemen rumah sakit. Proses dalam Layanan Kesehatan melibatkan pemahaman mendalam tentang kebutuhan medis, peraturan kesehatan, serta keterampilan interpersonal dalam berkomunikasi dengan pasien. Tujuan utamanya adalah meningkatkan kualitas hidup dan kesehatan masyarakat. Layanan Kesehatan mencakup karir seperti perawat, dokter, manajer rumah sakit, dan ahli kesehatan masyarakat. Keahlian yang dibutuhkan termasuk pengetahuan medis, keterampilan komunikasi, serta kemampuan manajerial dan analitis. Di tengah tantangan kesehatan global, jurusan ini menawarkan peluang besar untuk berkontribusi pada kesehatan masyarakat dan pembangunan sektor kesehatan.</p>
-          </div>
-        </div>
-      </div>
-    </section>
+    
 
     <section id="gallery" class="gallery section">
 

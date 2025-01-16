@@ -44,21 +44,6 @@ include('./layouts/nav.php');
   </svg>
 </section>
 
- 
- <section id="details" class="details section">
-      <div class="container">
-        <div class="row gy-4 align-items-center">
-          <div class="col-md-5 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
-            <img src="<?= ASSETS_PATH ?>img/logo_rpl.png" class="img-fluid" alt="" style="width: 100%; height: 500px;">
-          </div>
-          <div class="col-md-7" data-aos="fade-up" data-aos-delay="100">
-            <h1>Samsung Tech Institute (STI) SMK Bina Cendekia Cirebon</h1>
-            <p style="text-align: justify;">Samsung Tech Institute (STI) adalah bidang yang berfokus pada pengelolaan, analisis, dan pengembangan sistem informasi untuk mendukung operasi dan keputusan organisasi. Proses dalam STI mencakup perancangan, implementasi, dan pemeliharaan sistem yang efisien, serta pengolahan data untuk mendukung pengambilan keputusan yang lebih baik. Tujuan utamanya adalah menciptakan solusi teknologi yang membantu organisasi dalam menghadapi tantangan bisnis dan memaksimalkan efisiensi. Karir di STI termasuk analis sistem, administrator database, dan manajer TI. Keahlian yang dibutuhkan antara lain pemrograman, analisis data, manajemen proyek, dan pemahaman teknologi terkini. STI menghadapi tantangan dalam mengelola data besar, keamanan siber, 
-              dan perubahan teknologi, namun juga menawarkan peluang karir yang sangat luas di era digital saat ini.</p>
-          </div>
-        </div>
-      </div>
-    </section>
 
     <section id="gallery" class="gallery section">
 

@@ -211,8 +211,8 @@ include './foto_landing.php';
 
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="<?= ASSETS_PATH ?>img/gallery/rpl.jpeg" class="glightbox" data-gallery="images-gallery">
-                <img src="<?= ASSETS_PATH ?>img/gallery/rpl.jpeg" class="img-fluid" alt="" style="width: 110%; height: 240px; object-fit: cover;">
+              <a href="<?= ASSETS_PATH ?>img/gallery/lab_rpl.jpg" class="glightbox" data-gallery="images-gallery">
+                <img src="<?= ASSETS_PATH ?>img/gallery/lab_rpl.jpg" class="img-fluid" alt="" style="width: 110%; height: 240px; object-fit: cover;">
               </a>
               <div class="caption" style="text-align: center; padding: 5px; background-color: rgb(11, 21, 110); color: white; font-size: 12px;">
                 Fasilitas RPL
@@ -266,33 +266,33 @@ include './foto_landing.php';
 
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="<?= ASSETS_PATH ?>img/gallery/perpus.jpeg" class="glightbox" data-gallery="images-gallery">
-                <img src="<?= ASSETS_PATH ?>img/gallery/perpus.jpeg" class="img-fluid" alt="" style="width: 110%; height: 240px; object-fit: cover;">
+              <a href="<?= ASSETS_PATH ?>img/gallery/aula.jpg" class="glightbox" data-gallery="images-gallery">
+                <img src="<?= ASSETS_PATH ?>img/gallery/aula.jpg" class="img-fluid" alt="" style="width: 110%; height: 240px; object-fit: cover;">
               </a>
               <div class="caption" style="text-align: center; padding: 5px; background-color:  rgb(11, 21, 110); color: white; font-size: 12px;">
-                Fasilitas Perpustakaan
+                Fasilitas Aula
               </div>
             </div>
           </div><!-- End Gallery Item -->
 
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="<?= ASSETS_PATH ?>img/gallery/toilet.jpg" class="glightbox" data-gallery="images-gallery">
-                <img src="<?= ASSETS_PATH ?>img/gallery/toilet.jpg" class="img-fluid" alt="" style="width: 110%; height: 240px; object-fit: cover;">
+              <a href="<?= ASSETS_PATH ?>img/gallery/lapangan.jpg" class="glightbox" data-gallery="images-gallery">
+                <img src="<?= ASSETS_PATH ?>img/gallery/lapangan.jpg" class="img-fluid" alt="" style="width: 110%; height: 240px; object-fit: cover;">
               </a>
               <div class="caption" style="text-align: center; padding: 5px; background-color:  rgb(11, 21, 110); color: white; font-size: 12px;">
-                Fasilitas Toilet
+                Fasilitas Lapangan SMK BC
               </div>
             </div>
           </div><!-- End Gallery Item -->
 
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="<?= ASSETS_PATH ?>img/gallery/rpl.jpeg" class="glightbox" data-gallery="images-gallery">
-                <img src="<?= ASSETS_PATH ?>img/gallery/rpl.jpeg" class="img-fluid" alt="" style="width: 110%; height: 240px; object-fit: cover;">
+              <a href="<?= ASSETS_PATH ?>img/gallery/masjid.jpg" class="glightbox" data-gallery="images-gallery">
+                <img src="<?= ASSETS_PATH ?>img/gallery/masjid.jpg" class="img-fluid" alt="" style="width: 110%; height: 240px; object-fit: cover;">
               </a>
               <div class="caption" style="text-align: center; padding: 5px; background-color:  rgb(11, 21, 110); color: white; font-size: 12px;">
-                Fasilitas RPL
+                Fasilitas Masjid
               </div>
             </div>
           </div><!-- End Gallery Item -->

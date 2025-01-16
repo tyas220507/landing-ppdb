@@ -45,20 +45,7 @@ include('./layouts/header.php');
     </section>
 
 
-    <section id="details" class="details section">
-      <div class="container">
-        <div class="row gy-4 align-items-center">
-          <div class="col-md-5 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
-            <img src="<?= ASSETS_PATH ?>img/logo_rpl.png" class="img-fluid" alt="" style="width: 100%; height: 500px;">
-          </div>
-          <div class="col-md-7" data-aos="fade-up" data-aos-delay="100">
-            <h1>Tata Busana (TABUS) SMK Bina Cendekia Cirebon</h1>
-            <p style="text-align: justify;">Tata Busana adalah bidang yang fokus pada seni dan keterampilan dalam merancang, membuat, dan mengembangkan pakaian serta aksesori sesuai dengan tren dan kebutuhan konsumen. Proses dalam Tata Busana meliputi berbagai tahapan, mulai dari riset tren mode, desain pakaian, pemilihan bahan yang sesuai, hingga pembuatan pola dan produksi. Tata Busana tidak hanya mengutamakan estetika, tetapi juga kenyamanan dan fungsionalitas pakaian.
-              Para profesional di bidang Tata Busana berperan dalam menciptakan koleksi busana yang dapat mempengaruhi tren fashion global. Selain itu, mereka juga terlibat dalam pengelolaan produksi, pengawasan kualitas, dan distribusi produk busana. Keahlian yang dibutuhkan dalam bidang ini mencakup kreativitas, keterampilan teknis dalam menggunakan alat desain, serta pemahaman yang mendalam tentang bahan dan konstruksi pakaian.</p>
-          </div>
-        </div>
-      </div>
-    </section>
+   
 
     <section id="gallery" class="gallery section">
 

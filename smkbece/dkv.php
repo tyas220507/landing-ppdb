@@ -44,21 +44,6 @@ include('./layouts/nav.php');
   </svg>
 </section>
 
- 
- <section id="details" class="details section">
-      <div class="container">
-        <div class="row gy-4 align-items-center">
-          <div class="col-md-5 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
-            <img src="<?= ASSETS_PATH ?>img/logo_rpl.png" class="img-fluid" alt="" style="width: 100%; height: 500px;">
-          </div>
-          <div class="col-md-7" data-aos="fade-up" data-aos-delay="100">
-            <h1>Desain Komunikasi Visual (DKV) SMK Bina Cendekia Cirebon</h1>
-            <p style="text-align: justify;">Desain Komunikasi Visual (DKV) adalah bidang yang berfokus pada pengembangan karya visual yang menyampaikan pesan atau informasi secara efektif kepada audiens. Proses DKV melibatkan konsep desain, pembuatan grafis, serta penggunaan elemen visual untuk menciptakan komunikasi yang menarik dan bermakna. Tujuan utamanya adalah menciptakan desain yang komunikatif, inovatif, dan sesuai dengan kebutuhan klien. Karir di DKV termasuk desainer grafis, ilustrator, animator, dan art director. Keahlian yang dibutuhkan mencakup kreativitas, keterampilan teknis dalam perangkat desain, serta pemahaman tentang komunikasi visual dan psikologi audiens. DKV menghadapi tantangan dalam tren desain yang cepat berubah dan permintaan pasar yang dinamis, 
-              namun menawarkan peluang besar dalam industri kreatif dan periklanan.</p>
-          </div>
-        </div>
-      </div>
-    </section>
 
     <section id="gallery" class="gallery section">
 

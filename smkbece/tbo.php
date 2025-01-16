@@ -43,26 +43,9 @@ include('./layouts/header.php');
         </g>
       </svg>
     </section>
-
-
-    <section id="details" class="details section">
-      <div class="container">
-        <div class="row gy-4 align-items-center">
-          <div class="col-md-5 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
-            <img src="<?= ASSETS_PATH ?>img/logo_rpl.png" class="img-fluid" alt="" style="width: 100%; height: 500px;">
-          </div>
-          <div class="col-md-7" data-aos="fade-up" data-aos-delay="100">
-            <h1>Teknik Body Otomotif (TBO) SMK Bina Cendekia Cirebon</h1>
-            <p style="text-align: justify;">Teknik Body Otomotif adalah bidang yang fokus pada perancangan, perbaikan, dan pemeliharaan body kendaraan bermotor untuk memastikan kualitas, keselamatan, dan kenyamanan. Prosesnya meliputi analisis struktur kendaraan, desain body, perbaikan kerusakan body, pengecatan, serta perawatan dan modifikasi kendaraan. Teknik ini juga mencakup penggunaan teknologi terbaru dalam pemeliharaan dan perbaikan body kendaraan, seperti teknik pengelasan, pengecatan otomatis, dan penggunaan bahan ramah lingkungan.
-              Karir di bidang Teknik Body Otomotif melibatkan pekerjaan sebagai teknisi body kendaraan, ahli pengecatan, dan perancang body kendaraan. Keahlian yang dibutuhkan termasuk pemahaman tentang material kendaraan, keterampilan teknis dalam perbaikan body, serta kemampuan untuk bekerja dengan teknologi terbaru dalam industri otomotif. Teknik Body Otomotif menghadapi tantangan dalam hal inovasi teknologi dan peraturan keselamatan, namun juga menawarkan peluang besar seiring dengan perkembangan industri otomotif yang terus maju.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
+    
+<!-- Section Title -->
     <section id="gallery" class="gallery section">
-
-      <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Mengenai</h2>
         <div><span>Teknik Body Otomotif</span> <span class="description-title">di SMK Bina Cendekia Cirebon</span></div>
